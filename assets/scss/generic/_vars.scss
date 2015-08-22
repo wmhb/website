@@ -8,14 +8,14 @@ $lightergrey    : lighten($black, 90%);
 $white          : rgb(255,255,255);
 
 // primarycolors:
-$prim1:  rgb(52, 152, 219);    // blue - peter river
-$prim1d:  rgb(41, 128, 185); 
+$prim1:  rgb(252, 197, 0);    // blue - peter river
+$prim1d:  rgb(41, 128, 185);
 $prim2:  rgb(26, 188, 156);    // green
-$prim2d:  rgb(39, 174, 96);   
+$prim2d:  rgb(39, 174, 96);
 $prim3:  rgb(231, 76, 60);    // red
-$prim3d:  rgb(192, 57, 43);    
+$prim3d:  rgb(192, 57, 43);
 $prim4:  rgb(52, 73, 94);    // anthrazit
-$prim4d:  rgb(44, 62, 80);    
+$prim4d:  rgb(44, 62, 80);
 
 $success-color: green;
 $alert-color:   red;
@@ -66,10 +66,10 @@ $is-rem: true;
 $font-size:         62.5%;
 $font-size-body:    2.2;
 $line-height:       $font-size-body*.6;
-$font-main:         "Neuton", serif;
-$font-main-bold:    "Neuton", serif;;
-$font-heading:      "Neuton", serif;;
-$font-heading-light:"Neuton", serif;;
+$font-main:         "Helvetica-Neue", Helvetica, Arial, sans-serif;
+$font-main-bold:    "Neuton", serif;
+$font-heading:      "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+$font-heading-light:"brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
 $font-button:       $font-heading;
 $font-mono:         monospace, sans-serif;
 $font-size-h1:      3.4;

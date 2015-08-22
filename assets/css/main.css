@@ -155,13 +155,65 @@ td, th {
   padding: 0; }
 
 /*! END normalize.css */
+.media {
+  margin: 10px;
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+  .media .img {
+    float: left;
+    margin-right: 10px; }
+    .media .img img {
+      display: block; }
+  .media .imgExt {
+    float: right;
+    margin-left: 10px; }
+  .media .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1; }
+  .media .img {
+    display: none; }
+  .media .bd h2, .media .bd p {
+    margin: 0; }
+  .media .bd p {
+    font-weight: italic; }
+  @media screen and (min-width: 480px) {
+    .media .img {
+      display: inline-block;
+      width: 40%; } }
+  @media screen and (min-width: 768px) {
+    .media .img > img {
+      width: 100%; } }
+  @media screen and (min-width: 992px) {
+    .media .img {
+      float: none;
+      width: 100%; }
+      .media .img > img {
+        width: 100%; } }
+
+.is--centered {
+  text-align: center; }
+
+.is--left {
+  float: left; }
+
+.is--right {
+  float: right; }
+
+.header {
+  -webkit-tap-highlight-color: transparent; }
+
+@-ms-viewport {
+  width: device-width; }
+
 *, *:before, *:after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
-  font-family: "Neuton", serif;
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
   font-size: 50%;
   overflow-y: scroll; }
   @media screen and (min-width: 480px) {
@@ -223,7 +275,7 @@ body {
 
 /* Typography */
 h1, .alpha, h2, .beta, h3, .gamma, h4, .delta, h5, .epsilon, h6, .zeta {
-  font-family: "Neuton", serif;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: black;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -268,7 +320,7 @@ pre, code, kbd, samp {
 p {
   font-size: 22px;
   font-size: 2.2rem;
-  font-family: "Neuton", serif;
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: black;
   letter-spacing: 0.01em;
   line-height: 1.32;
@@ -325,6 +377,52 @@ a.custom {
       a.custom:hover, a.custom:focus {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px);
         background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px); } }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+.full-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%; }
+
+figure {
+  margin: 0; }
+
+iframe {
+  width: 100%;
+  display: none; }
+  @media screen and (min-width: 768px) {
+    iframe {
+      display: block; } }
+  iframe.gmaps {
+    max-height: 50vh; }
+
+.layout__header {
+  background: url('../images/header.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 75%;
+  text-transform: uppercase; }
+  .layout__header a {
+    opacity: .4;
+    display: block; }
+  .layout__header h1 {
+    font-size: 8rem; }
+  .layout__header h2 {
+    font-size: 6rem; }
+  .layout__header h1, .layout__header h2 {
+    text-align: center; }
+
+.layout__logo {
+  z-index: 9999;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  color: black; }
 
 .g {
   display: -webkit-box;
@@ -597,12 +695,37 @@ a.custom {
       margin: 0 auto;
       width: 100%; } }
 
+.pane {
+  margin: 0 auto;
+  max-width: 1440px; }
+  .pane .pane {
+    max-width: auto; }
+  .pane--prim1 {
+    background-color: #fcc500; }
+  .pane--prim2 {
+    background-color: #1abc9c; }
+  .pane--prim3 {
+    background-color: #e74c3c; }
+  .pane--prim4 {
+    background-color: #34495e; }
+  .pane--full {
+    min-height: 100vh; }
+  .pane--half {
+    min-height: 50vh; }
+  .pane--third {
+    min-height: 33vh; }
+  .pane h1, .pane h2 {
+    margin: 0; }
+  @media (min-width: 480px) {
+    .pane {
+      padding-top: 5rem; } }
+
 .btn {
-  background: #3498db;
+  background: #fcc500;
   border: 1px solid #2980b9;
   color: white;
   display: inline-block;
-  font-family: "Neuton", serif;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
   padding: 1rem 1.7rem;
   margin-right: 0.5em;
@@ -618,7 +741,7 @@ a.custom {
   .btn:hover {
     background: #2980b9; }
   .pane--prim1 .btn {
-    background: #3498db;
+    background: #fcc500;
     border: 1px solid #2980b9; }
     .pane--prim1 .btn:hover {
       background: #2980b9; }
