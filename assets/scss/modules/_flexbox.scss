@@ -3,23 +3,23 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+
     // nested grids
     .g{
         flex: 1 1 auto;
-        width: auto; 
+        width: auto;
     }
-    
+
     // with gutters
-    &--gutter { 
-       margin: 0 -1em 0 -1em; 
+    &--gutter {
+       margin: 0 -1em 0 -1em;
         > .gi { margin: 0 -1em 0 1em;  }
     }
-   
+
     // THE FOLLOWING GRID MODS SHOULD BETTER APPLIED WITH CSS, INSTEAD OF CLASSES
     // see: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
     &--wrap{ flex-wrap: wrap; }
-   
+
     // flex direction column?
     &--col{ flex-direction: column; }
 
@@ -32,7 +32,7 @@
     &--left     { justify-content: flex-start; }
     &--right    { justify-content: flex-end; }
     &--center { justify-content: center; }
-    
+
     @media(min-width:$screen-xs-min) {
         &--xs-col{ flex-direction: column; }
     }
@@ -48,8 +48,8 @@
 }
 
 // THE GRID ITEM
-.gi { 
-    flex: 1 1 auto; margin: 0;
+.gi {
+    flex: 1 1 auto; margin: 0; padding: 0 2%;
 
     // Alignment per cell */
     &--top    { align-self: flex-start; }
