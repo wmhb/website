@@ -389,24 +389,40 @@ iframe {
     margin: 0; }
   .layout__header h2 {
     margin-top: .2em;
-    font-size: 8rem; }
+    font-size: 7rem; }
   .layout__header h1, .layout__header h2 {
     color: white;
     text-align: center; }
 
 .header__link {
-  background-color: rgba(0, 0, 0, 0.4);
-  display: block; }
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
 
 .layout__logo {
-  background-color: transparent;
-  z-index: 9999;
-  position: absolute;
-  opacity: 1;
-  top: 0;
-  left: 0;
+  text-transform: uppercase;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
-  color: black; }
+  color: white; }
+  .layout__logo:hover {
+    color: #fcc500;
+    -webkit-transition: color .4s ease;
+            transition: color .4s ease; }
+
+.navigation {
+  padding: 1em 2em;
+  background-color: black;
+  color: white;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .g {
   display: -webkit-box;
@@ -719,6 +735,7 @@ iframe {
 
 .btn {
   background: #fcc500;
+  text-transform: uppercase;
   color: white;
   display: inline-block;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
@@ -745,8 +762,8 @@ iframe {
   .btn:hover, .btn:active, .btn:visited {
     text-decoration: none; }
   .btn:hover {
-    color: white;
-    background: #e74c3c; }
+    color: black;
+    background: white; }
   .btn.tiny {
     font-size: 16px;
     font-size: 1.6rem; }
