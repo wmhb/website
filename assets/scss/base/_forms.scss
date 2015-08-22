@@ -1,0 +1,24 @@
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder
+{
+    color: #999;
+}
+
+.finder__form{}
+
+input, select{
+    width: 100%;
+    border: none;
+    padding: 0.3em 0.5em;
+    border-radius: 0;
+    box-shadow: none;}
+
+input[type="submit"]{
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+
+}

@@ -1,0 +1,139 @@
+// Media Objekct
+.media{
+    margin: 10px;
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+    .img {
+        float: left;
+        margin-right: 10px;
+        img {
+          display: block;
+        }
+    }
+    .imgExt {
+        float: right;
+        margin-left: 10px;
+    }
+    .bd {
+        overflow: hidden;
+        _overflow: visible;
+        zoom: 1;
+    }
+
+
+    .img{
+        display: none;
+    }
+    .bd{
+        h2,p{
+            margin: 0;
+        }
+        h2{
+        }
+        p{
+            font-weight: italic;
+        }
+    }
+    @media screen and (min-width: $screen-xs-min) {
+        .img{
+            display: inline-block;
+            width: 40%;
+        }
+    }
+
+    @media screen and (min-width: $screen-sm-min){
+        .img{
+
+            > img{
+                width: 100%;
+            }
+        }
+        .bd{}
+    }
+    @media screen and (min-width: $screen-md-min){
+        .img{
+            float: none;
+            width: 100%;
+            > img{
+                width: 100%;
+            }
+        }
+        .bd{}
+    }
+}
+
+
+// Placeholder Helper Collection
+
+// Offscreen text
+%is-vishidden{
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    font-size: 0;
+    text-align: start;
+}
+
+%is--hidden{
+    transition: opacity, height 0.45s ease;
+    opacity: 0;
+    top: 30em;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 0;
+}
+
+// /* Completely remove from the flow and screen readers. */
+// .is-hidden {
+//     display: none !important;
+//     visibility: hidden !important;
+// }
+
+// Completely remove from the flow but leave available to screen readers.
+// .is-vishidden2 {
+//     position: absolute !important;
+//     overflow: hidden;
+//     width: 1px;
+//     height: 1px;
+//     padding: 0;
+//     border: 0;
+//     clip: rect(1px, 1px, 1px, 1px);
+// }
+
+// Highlighted Elements
+%is-highlighted{ background: $highlight-bg; }
+
+// Positioning
+.is--centered { text-align: center; }
+.is--left{ float: left; }
+.is--right{ float: right; }
+
+// States
+%is-round{ border-radius: $border-radius +px; }
+
+
+// helper
+%hide-on-small{
+    display: none;
+    @media screen and (min-width: $screen-sm-min){
+        display: inline-block;
+    }
+}
+
+%show-on-small{
+    display: inline-block ;
+    @media screen and (min-width: $screen-sm-min){
+        display: none;
+    }
+}
+
+// Disable Tap Color
+.header{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+// Funky IE Mediaquery stuff
+// see: http://blog.adrianroselli.com/2013/05/ie10-metro-and-media-queries.htmlfu
+// uncommented because of csslint
+@-ms-viewport { width: device-width; }

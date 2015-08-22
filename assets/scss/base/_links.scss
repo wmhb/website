@@ -1,0 +1,62 @@
+// Basic Link Styling
+
+a{
+    text-decoration: none;
+    color: $link-color;
+    font-weight: $link-weight;
+    &:hover,
+    &:active,
+    &:focus{
+        text-decoration:none;
+    }
+    &:active,
+    &:focus{
+        outline:none;
+    }
+}
+
+// Better underlined Links
+// see: http://codepen.io/heroheman/pen/zGvJrE
+$background-color: $prim2 !default;
+$link-color: #fff !default;
+$link-color-active: #fff !default;
+$link-underline-color: white !default;
+$link-underline-color-active: $white !default;
+$link-underline-width: 2px !default;
+$link-underline-offset: 2px !default;
+$link-color: white;
+
+
+
+$breaking-underlines: true !default;
+
+@mixin underline($color: $link-underline-color, $weight: $link-underline-width, $offset: $link-underline-offset) {
+    background-image: linear-gradient(bottom, transparent, transparent $offset, $color $offset, $color $offset + $weight, transparent $offset + $weight);
+}
+
+
+a {
+    color: $link-color;
+    transition: color 200ms ease;
+    &:hover, &:focus {
+        color: $link-color-active;
+    }
+}
+
+a.custom {
+    text-decoration: none;
+    position: relative;
+    @if $breaking-underlines {
+        text-shadow: -1px -1px 0 $background-color, 1px -1px 0 $background-color, -1px 1px 0 $background-color, 1px 1px 0 $background-color;
+    }
+    @include underline($link-color);
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+        @include underline($link-color, 0.5);
+    }
+    &:hover, &:focus {
+        @include underline($link-color-active);
+        @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+            @include underline($link-color-active, 0.5);
+        }
+    }
+}

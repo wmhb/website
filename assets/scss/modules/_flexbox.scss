@@ -1,0 +1,118 @@
+// THE GRID
+.g {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    // nested grids
+    .g{
+        flex: 1 1 auto;
+        width: auto; 
+    }
+    
+    // with gutters
+    &--gutter { 
+       margin: 0 -1em 0 -1em; 
+        > .gi { margin: 0 -1em 0 1em;  }
+    }
+   
+    // THE FOLLOWING GRID MODS SHOULD BETTER APPLIED WITH CSS, INSTEAD OF CLASSES
+    // see: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    &--wrap{ flex-wrap: wrap; }
+   
+    // flex direction column?
+    &--col{ flex-direction: column; }
+
+    // Alignment per row */
+    &--top     { align-items: flex-start;}
+    &--bottom  { align-items: flex-end; }
+    &--vcenter  { align-items: center; }
+
+    // justify content
+    &--left     { justify-content: flex-start; }
+    &--right    { justify-content: flex-end; }
+    &--center { justify-content: center; }
+    
+    @media(min-width:$screen-xs-min) {
+        &--xs-col{ flex-direction: column; }
+    }
+    @media(min-width:$screen-sm-min) {
+        &--sm-col{ flex-direction: column; }
+    }
+    @media(min-width:$screen-md-min) {
+        &--md-col{ flex-direction: column; }
+    }
+    @media(min-width:$screen-lg-min) {
+        &--lg-col{ flex-direction: column; }
+    }
+}
+
+// THE GRID ITEM
+.gi { 
+    flex: 1 1 auto; margin: 0;
+
+    // Alignment per cell */
+    &--top    { align-self: flex-start; }
+    &--bottom { align-self: flex-end;}
+    &--center { align-self: center;}
+
+    // DEFAULT
+    &--full { flex: 0 0  100%; }
+    &--1of2 { flex: 0 0  50%;}
+    &--1of3 { flex: 0 0  33%;}
+    &--2of3 { flex: 0 0  66.6667%; }
+    &--1of4 { flex: 0 0  25%; }
+    &--3of4 { flex: 0 0  75%; }
+
+    // MOBILE
+    @media(min-width:$screen-xs-min) {
+        &--xs-full {flex: 0 0  100%; }
+        &--xs-1of2 {flex: 0 0  50%;}
+        &--xs-1of3 {flex: 0 0  33%;}
+        &--xs-2of3 { flex: 0 0  66.6667%; }
+        &--xs-1of4 { flex: 0 0  25%; }
+        &--xs-3of4 { flex: 0 0  75%; }
+    }
+    // SMALL
+    @media(min-width:$screen-sm-min) {
+        &--sm-full {flex: 0 0  100%; }
+        &--sm-1of2 {flex: 0 0  50%;}
+        &--sm-1of3 {flex: 0 0  33%;}
+        &--sm-2of3 { flex: 0 0  66.6667%; }
+        &--sm-1of4 { flex: 0 0  25%; }
+        &--sm-3of4 { flex: 0 0  75%; }
+    }
+
+    // MEDIUM
+    @media(min-width: $screen-md-min ) {
+        &--md-full {flex: 0 0  100%; }
+        &--md-1of2 {flex: 0 0  50%;}
+        &--md-1of3 {flex: 0 0  33%;}
+        &--md-2of3 { flex: 0 0  66.6667%; }
+        &--md-1of4 { flex: 0 0  25%; }
+        &--md-3of4 { flex: 0 0  75%; }
+    }
+
+    // LARGE
+    @media(min-width: $screen-lg-min ) {
+        &--lg-full {flex: 0 0  100%; }
+        &--lg-1of2 {flex: 0 0  50%;}
+        &--lg-1of3 {flex: 0 0  33%;}
+        &--lg-2of3 { flex: 0 0  66.6667%; }
+        &--lg-1of4 { flex: 0 0  25%; }
+        &--lg-3of4 { flex: 0 0  75%; }
+    }
+}
+
+.wrap{
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 2rem 0;
+    width: 92%;
+    @media screen and (min-width: $screen-sm){
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+

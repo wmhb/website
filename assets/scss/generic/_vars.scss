@@ -1,0 +1,164 @@
+// descriptive variables, add as needed:
+// greyscale
+$black          : rgb(0,0,0);
+$darkgrey       : lighten($black, 25%);
+$grey           : lighten($black, 50%);
+$lightgrey      : #bec0c2;
+$lightergrey    : lighten($black, 90%);
+$white          : rgb(255,255,255);
+
+// primarycolors:
+$prim1:  rgb(52, 152, 219);    // blue - peter river
+$prim1d:  rgb(41, 128, 185); 
+$prim2:  rgb(26, 188, 156);    // green
+$prim2d:  rgb(39, 174, 96);   
+$prim3:  rgb(231, 76, 60);    // red
+$prim3d:  rgb(192, 57, 43);    
+$prim4:  rgb(52, 73, 94);    // anthrazit
+$prim4d:  rgb(44, 62, 80);    
+
+$success-color: green;
+$alert-color:   red;
+
+
+// Layout Defaults
+$maxWidth:      1440px;
+$bgHeader:      $prim3;
+$text-color:    $black;
+$head-color:    $black;
+$link-color:    $prim4;
+$bg-color:      white;
+$border-color:  $prim2;
+$code-bg-color: $grey;
+
+$btn-text:      white;
+$btn-bg:        $prim3;
+$btn-text-hov:  white;
+$btn-primary:   transparent;
+$btn-prim-hov:  $prim3;
+$btn-border:    $prim3;
+
+$btn-border-bright:     white;
+$btn-text-bright:       white;
+$btn-text-bright-hov:   $prim3;
+$btn-prim-bright-hov:   white;
+
+$btn-second:    transparent;
+$btn-success:   $success-color;
+$btn-alert:     $alert-color;
+$highlight-bg:  $prim3;
+
+$nav-text: $lightgrey;
+$nav-text-active: black;
+$mg-bottom: 22px;
+$mg-bottom-small: 12px;
+
+$nav-height: 5rem;
+
+// Off Canvas Width
+// $oc-width: 17em;
+
+// Flags
+$is-rem: true;
+
+
+// Typography
+$font-size:         62.5%;
+$font-size-body:    2.2;
+$line-height:       $font-size-body*.6;
+$font-main:         "Neuton", serif;
+$font-main-bold:    "Neuton", serif;;
+$font-heading:      "Neuton", serif;;
+$font-heading-light:"Neuton", serif;;
+$font-button:       $font-heading;
+$font-mono:         monospace, sans-serif;
+$font-size-h1:      3.4;
+$font-size-h2:      2.5;
+$font-size-h3:      2.2;
+$font-size-h4:      2;
+$font-size-h5:      2;
+$font-size-h6:      2;
+$font-size-small:   0.9;
+
+// Links
+// $link-color          : rgb(43,89,147);
+$link-color-hover    : darken($link-color, 10);
+$link-color-visited  : darken($link-color-hover, 10);
+$link-color-focus    : darken($link-color-visited, 10);
+$link-weight         : normal;
+
+// Defaults
+$border-radius: 5;
+$base-margin:   20;
+$space:     1em;
+$space-double:  $space*2;
+$space-triple:  $space*3;
+$space-quad:    $space*2;
+$space-half:    $space/2;
+
+// Marked Text
+$mark-bg            : $prim2;
+$mark-color         : white;
+
+// Support IE?
+// used in some compass mixins
+// eg: to avoid those terrible progid filter
+$support-ie6:   false;
+$support-ie7:   false;
+$support-ie8:   false;
+
+// Bootstrap Grid
+// Extra small screen / phone
+// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
+
+
+// Grid system
+// --------------------------------------------------
+
+// Number of columns in the grid system
+$grid-columns:              12;
+// Padding, to be divided by two and applied to the left and right of all columns
+$grid-gutter-width:         60px;
+// Point at which the navbar stops collapsing
+$grid-float-breakpoint:     $screen-sm-min;
+
+// Container sizes
+// --------------------------------------------------
+
+// Small screen / tablet
+$container-tablet:             ((720px + $grid-gutter-width)) !default;
+$container-sm:                 $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop:            ((940px + $grid-gutter-width)) !default;
+$container-md:                 $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop:      ((1540px + $grid-gutter-width)) !default;
+$container-lg:                 $container-large-desktop !default;
