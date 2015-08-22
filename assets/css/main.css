@@ -363,7 +363,7 @@ a {
 a.custom {
   text-decoration: none;
   position: relative;
-  text-shadow: -1px -1px 0 #1abc9c, 1px -1px 0 #1abc9c, -1px 1px 0 #1abc9c, 1px 1px 0 #1abc9c;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, white 2px, white 4px, transparent 4px);
   background-image: linear-gradient(bottom, transparent, transparent 2px, white 2px, white 4px, transparent 4px); }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
@@ -403,10 +403,11 @@ iframe {
 .layout__header {
   background: url('../images/header.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 75%;
+  height: 70vh;
+  min-height: 500px;
   text-transform: uppercase; }
   .layout__header a {
-    opacity: .4;
+    opacity: .7;
     display: block; }
   .layout__header h1 {
     font-size: 8rem; }
@@ -703,7 +704,7 @@ iframe {
   .pane--prim1 {
     background-color: #fcc500; }
   .pane--prim2 {
-    background-color: #1abc9c; }
+    background-color: black; }
   .pane--prim3 {
     background-color: #e74c3c; }
   .pane--prim4 {
@@ -746,7 +747,7 @@ iframe {
     .pane--prim1 .btn:hover {
       background: #2980b9; }
   .pane--prim2 .btn {
-    background: #1abc9c;
+    background: black;
     border: 1px solid #27ae60; }
     .pane--prim2 .btn:hover {
       background: #27ae60; }

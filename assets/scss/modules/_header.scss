@@ -1,10 +1,11 @@
 .layout__header{
     background: url('../images/header.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 75%;
+    height: 70vh;
+    min-height: 500px;
     text-transform: uppercase;
     a{
-        opacity: .4;
+        opacity: .7;
         display: block;
     }
     h1{
@@ -25,5 +26,5 @@
     top: 0;
     left: 0;
     font-family: $font-heading;
-    color: black;
+    color: $black;
 }
