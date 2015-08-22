@@ -392,6 +392,28 @@ a.custom {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px);
         background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px); } }
 
+img {
+  height: auto;
+  max-width: 100%; }
+
+.full-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%; }
+
+figure {
+  margin: 0; }
+
+iframe {
+  width: 100%;
+  display: none; }
+  @media screen and (min-width: 768px) {
+    iframe {
+      display: block; } }
+  iframe.gmaps {
+    max-height: 50vh; }
+
 body > header {
   background-image: url('../images/header.jpg');
   text-align: center;
