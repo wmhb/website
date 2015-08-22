@@ -82,7 +82,6 @@
         &--sm-1of4 { flex: 0 0  25%; }
         &--sm-3of4 { flex: 0 0  75%; }
     }
-
     // MEDIUM
     @media(min-width: $screen-md-min ) {
         &--md-full {flex: 0 0  100%; }
@@ -92,7 +91,6 @@
         &--md-1of4 { flex: 0 0  25%; }
         &--md-3of4 { flex: 0 0  75%; }
     }
-
     // LARGE
     @media(min-width: $screen-lg-min ) {
         &--lg-full {flex: 0 0  100%; }
