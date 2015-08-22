@@ -346,7 +346,7 @@ pre, code, kbd, samp {
 
 a {
   text-decoration: none;
-  color: #34495e;
+  color: #fcc500;
   font-weight: normal; }
   a:hover, a:active, a:focus {
     text-decoration: none; }
@@ -721,9 +721,21 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.about .pane {
+  padding: 5rem 0; }
+@media screen and (min-width: 768px) {
+  .about__text {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem; } }
+.about__text p {
+  margin-top: 0; }
+
 .btn {
   background: #fcc500;
-  border: 1px solid #2980b9;
   color: white;
   display: inline-block;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
@@ -739,28 +751,14 @@ iframe {
   @media screen and (min-width: 768px) {
     .btn {
       width: auto; } }
-  .btn:hover {
-    background: #2980b9; }
   .pane--prim1 .btn {
-    background: #fcc500;
-    border: 1px solid #2980b9; }
-    .pane--prim1 .btn:hover {
-      background: #2980b9; }
+    background: #fcc500; }
   .pane--prim2 .btn {
-    background: black;
-    border: 1px solid #27ae60; }
-    .pane--prim2 .btn:hover {
-      background: #27ae60; }
+    background: black; }
   .pane--prim3 .btn {
-    background: #e74c3c;
-    border: 1px solid #c0392b; }
-    .pane--prim3 .btn:hover {
-      background: #c0392b; }
+    background: #e74c3c; }
   .pane--prim4 .btn {
-    background: #34495e;
-    border: 1px solid #2c3e50; }
-    .pane--prim4 .btn:hover {
-      background: #2c3e50; }
+    background: #34495e; }
   .btn:hover, .btn:active, .btn:visited {
     text-decoration: none; }
   .btn:hover {
