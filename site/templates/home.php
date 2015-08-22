@@ -10,7 +10,6 @@ test
 
     <hr>
 
-    <?php snippet('projects') ?>
 
   </main>
 
