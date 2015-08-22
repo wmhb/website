@@ -1,0 +1,14 @@
+.about{
+    .pane{
+        padding: 5rem 0;
+    }
+    &__text{
+        @media screen and (min-width: $screen-sm){
+            column-count: 2;
+            column-gap: 2rem;
+        }
+        p{
+            margin-top: 0;
+        }
+    }
+}

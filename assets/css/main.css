@@ -720,6 +720,19 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.about .pane {
+  padding: 5rem 0; }
+@media screen and (min-width: 768px) {
+  .about__text {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 2rem;
+       -moz-column-gap: 2rem;
+            column-gap: 2rem; } }
+.about__text p {
+  margin-top: 0; }
+
 .btn {
   background: #fcc500;
   border: 1px solid #2980b9;
