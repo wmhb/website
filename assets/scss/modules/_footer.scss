@@ -1,22 +1,2 @@
 .footer{
-    text-align: center;
-    padding: 1em 0;
-    background: $black;
-    p, a{
-        color: white;
-    }
-    a{
-        text-decoration: underline;
-    }
-    &--small{
-        @extend .footer;
-        background: white;
-        color: $black;
-        p, a{
-            color: black;
-        }
-        a{
-            text-decoration: underline;
-        }
-    }
 }

@@ -161,19 +161,3 @@
 //         display: block;
 //     }
 // }
-
-// Header Play Button, use with icon
-.btn-play{
-    color: white;
-    @include font-size(4);
-    position: relative;
-    margin: 0 auto;
-    vertical-align: -webkit-baseline-middle;
-    @include default-animation;
-    &:hover{
-        text-decoration: none;
-        text-shadow: #f2f2f2 0 0 5px;
-    }
-}
-
-
