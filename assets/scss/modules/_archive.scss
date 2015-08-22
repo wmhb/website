@@ -1,4 +1,9 @@
 .archive{
     &__recent{}
-    &__itself{}
+    &__itself{
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+    }
 }

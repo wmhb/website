@@ -721,6 +721,10 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.archive__itself ul {
+  list-style-type: none;
+  padding: 0; }
+
 .about img {
   width: 100%; }
 .about .pane {
