@@ -12,8 +12,11 @@ Contrescarpe 1
 sowie
 
 bremen digitalmedia »connect« 
+(image: logo-bdm.jpg alt: bremen digitalmedia)
 
 mit der Unterstützung von 
+(image: logo-efre.png alt: EFRE)
+
 
 Telefon +49 (0) 421 841 37 814
 
