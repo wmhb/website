@@ -6,10 +6,10 @@
     }
                             
     // background colors// {{{
-    &--prim1{background-color: $prim1; border-left: 1rem solid $prim1d;}
-    &--prim2{background-color: $prim2; border-left: 1rem solid $prim2d;}
-    &--prim3{background-color: $prim3; border-left: 1rem solid $prim3d;}
-    &--prim4{background-color: $prim4; border-left: 1rem solid $prim4d;}
+    &--prim1{background-color: $prim1;}
+    &--prim2{background-color: $prim2;}
+    &--prim3{background-color: $prim3;}
+    &--prim4{background-color: $prim4;}
     // }}}
     // sizes// {{{
     &--full{ min-height: 100vh; }
