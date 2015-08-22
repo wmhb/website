@@ -406,6 +406,10 @@ iframe {
   text-transform: uppercase;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: white; }
+  .layout__logo:hover {
+    color: #fcc500;
+    -webkit-transition: color .4s ease;
+            transition: color .4s ease; }
 
 .navigation {
   padding: 1em 2em;
@@ -731,6 +735,7 @@ iframe {
 
 .btn {
   background: #fcc500;
+  text-transform: uppercase;
   color: white;
   display: inline-block;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
@@ -757,8 +762,8 @@ iframe {
   .btn:hover, .btn:active, .btn:visited {
     text-decoration: none; }
   .btn:hover {
-    color: white;
-    background: #e74c3c; }
+    color: black;
+    background: white; }
   .btn.tiny {
     font-size: 16px;
     font-size: 1.6rem; }

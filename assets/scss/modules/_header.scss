@@ -28,6 +28,10 @@
     text-transform: uppercase;
     font-family: $font-heading;
     color: $white;
+    &:hover{
+        color: $prim1;
+        transition: color .4s ease;
+    }
 }
 .navigation{
     padding: 1em 2em;
