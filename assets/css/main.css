@@ -597,6 +597,35 @@ a.custom {
       margin: 0 auto;
       width: 100%; } }
 
+.pane {
+  margin: 0 auto;
+  max-width: 1440px; }
+  .pane .pane {
+    max-width: auto; }
+  .pane--prim1 {
+    background-color: #3498db;
+    border-left: 1rem solid #2980b9; }
+  .pane--prim2 {
+    background-color: #1abc9c;
+    border-left: 1rem solid #27ae60; }
+  .pane--prim3 {
+    background-color: #e74c3c;
+    border-left: 1rem solid #c0392b; }
+  .pane--prim4 {
+    background-color: #34495e;
+    border-left: 1rem solid #2c3e50; }
+  .pane--full {
+    min-height: 100vh; }
+  .pane--half {
+    min-height: 50vh; }
+  .pane--third {
+    min-height: 33vh; }
+  .pane h1, .pane h2 {
+    margin: 0; }
+  @media (min-width: 480px) {
+    .pane {
+      padding-top: 5rem; } }
+
 .btn {
   background: #3498db;
   border: 1px solid #2980b9;
