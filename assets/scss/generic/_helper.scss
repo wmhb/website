@@ -84,23 +84,6 @@
     height: 0;
 }
 
-// /* Completely remove from the flow and screen readers. */
-// .is-hidden {
-//     display: none !important;
-//     visibility: hidden !important;
-// }
-
-// Completely remove from the flow but leave available to screen readers.
-// .is-vishidden2 {
-//     position: absolute !important;
-//     overflow: hidden;
-//     width: 1px;
-//     height: 1px;
-//     padding: 0;
-//     border: 0;
-//     clip: rect(1px, 1px, 1px, 1px);
-// }
-
 // Highlighted Elements
 %is-highlighted{ background: $highlight-bg; }
 

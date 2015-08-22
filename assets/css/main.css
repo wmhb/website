@@ -326,6 +326,11 @@ a.custom {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px);
         background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px); } }
 
+body > header {
+  background-image: url('../images/header.jpg');
+  text-align: center;
+  height: 75%; }
+
 .g {
   display: -webkit-box;
   display: -webkit-flex;
