@@ -289,7 +289,7 @@ body {
 
 /* Typography */
 h1, .alpha, h2, .beta, h3, .gamma, h4, .delta, h5, .epsilon, h6, .zeta {
-  font-family: "Neuton", serif;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: black;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -704,7 +704,7 @@ body > header {
   border: 1px solid #2980b9;
   color: white;
   display: inline-block;
-  font-family: "Neuton", serif;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
   padding: 1rem 1.7rem;
   margin-right: 0.5em;
