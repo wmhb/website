@@ -5,17 +5,15 @@
         max-width: auto;
     }
                             
-    // background colors// {{{
+    // background colors
     &--prim1{background-color: $prim1;}
     &--prim2{background-color: $prim2;}
     &--prim3{background-color: $prim3;}
     &--prim4{background-color: $prim4;}
-    // }}}
-    // sizes// {{{
+    // sizes
     &--full{ min-height: 100vh; }
     &--half{ min-height:  50vh; }
     &--third{ min-height: 33vh; }
-    // }}}
 
     h1, h2 {
         margin: 0;
