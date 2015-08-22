@@ -406,17 +406,22 @@ iframe {
   height: 70vh;
   min-height: 500px;
   text-transform: uppercase; }
-  .layout__header a {
-    opacity: .7;
-    display: block; }
   .layout__header h1 {
-    font-size: 8rem; }
+    font-size: 3rem;
+    margin: 0; }
   .layout__header h2 {
-    font-size: 6rem; }
+    margin-top: .2em;
+    font-size: 8rem; }
   .layout__header h1, .layout__header h2 {
+    color: white;
     text-align: center; }
 
+.header__link {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block; }
+
 .layout__logo {
+  background-color: transparent;
   z-index: 9999;
   position: absolute;
   opacity: 1;
