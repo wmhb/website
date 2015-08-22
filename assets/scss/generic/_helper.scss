@@ -120,3 +120,7 @@
 // see: http://blog.adrianroselli.com/2013/05/ie10-metro-and-media-queries.htmlfu
 // uncommented because of csslint
 @-ms-viewport { width: device-width; }
+
+.image--round{
+    border-radius: 50%;
+}

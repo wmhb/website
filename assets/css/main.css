@@ -207,6 +207,9 @@ td, th {
 @-ms-viewport {
   width: device-width; }
 
+.image--round {
+  border-radius: 50%; }
+
 *, *:before, *:after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -352,31 +355,6 @@ a {
     text-decoration: none; }
   a:active, a:focus {
     outline: none; }
-
-a {
-  color: white;
-  -webkit-transition: color 200ms ease;
-          transition: color 200ms ease; }
-  a:hover, a:focus {
-    color: #fff; }
-
-a.custom {
-  text-decoration: none;
-  position: relative;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, white 2px, white 4px, transparent 4px);
-  background-image: linear-gradient(bottom, transparent, transparent 2px, white 2px, white 4px, transparent 4px); }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    a.custom {
-      background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, white 2px, white 2.5px, transparent 2.5px);
-      background-image: linear-gradient(bottom, transparent, transparent 2px, white 2px, white 2.5px, transparent 2.5px); } }
-  a.custom:hover, a.custom:focus {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 4px, transparent 4px);
-    background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 4px, transparent 4px); }
-    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-      a.custom:hover, a.custom:focus {
-        background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px);
-        background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px); } }
 
 img {
   height: auto;
