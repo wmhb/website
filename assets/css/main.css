@@ -378,17 +378,29 @@ a.custom {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px);
         background-image: linear-gradient(bottom, transparent, transparent 2px, #fff 2px, #fff 2.5px, transparent 2.5px); } }
 
-body > header {
-  background-image: url('../images/header.jpg');
-  text-align: center;
+.layout__header {
+  background: url('../images/header.jpg') no-repeat center center fixed;
+  background-size: cover;
   height: 75%;
   text-transform: uppercase; }
-  body > header a {
+  .layout__header a {
+    opacity: .4;
     display: block; }
-  body > header h1 {
+  .layout__header h1 {
     font-size: 8rem; }
-  body > header h2 {
+  .layout__header h2 {
     font-size: 6rem; }
+  .layout__header h1, .layout__header h2 {
+    text-align: center; }
+
+.layout__logo {
+  z-index: 9999;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  color: black; }
 
 .g {
   display: -webkit-box;
