@@ -155,13 +155,79 @@ td, th {
   padding: 0; }
 
 /*! END normalize.css */
+.media {
+  margin: 10px;
+  overflow: hidden;
+  _overflow: visible;
+  zoom: 1; }
+  .media .img {
+    float: left;
+    margin-right: 10px; }
+    .media .img img {
+      display: block; }
+  .media .imgExt {
+    float: right;
+    margin-left: 10px; }
+  .media .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1; }
+  .media .img {
+    display: none; }
+  .media .bd h2, .media .bd p {
+    margin: 0; }
+  .media .bd p {
+    font-weight: italic; }
+  @media screen and (min-width: 480px) {
+    .media .img {
+      display: inline-block;
+      width: 40%; } }
+  @media screen and (min-width: 768px) {
+    .media .img > img {
+      width: 100%; } }
+  @media screen and (min-width: 992px) {
+    .media .img {
+      float: none;
+      width: 100%; }
+      .media .img > img {
+        width: 100%; } }
+
+.is--centered {
+  text-align: center; }
+
+.is--left {
+  float: left; }
+
+.is--right {
+  float: right; }
+
+.header {
+  -webkit-tap-highlight-color: transparent; }
+
+@-ms-viewport {
+  width: device-width; }
+
+.center-container {
+  position: relative; }
+
+.absolute-center {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
 *, *:before, *:after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
-  font-family: "Neuton", serif;
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
   font-size: 50%;
   overflow-y: scroll; }
   @media screen and (min-width: 480px) {
@@ -268,7 +334,7 @@ pre, code, kbd, samp {
 p {
   font-size: 22px;
   font-size: 2.2rem;
-  font-family: "Neuton", serif;
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: black;
   letter-spacing: 0.01em;
   line-height: 1.32;
@@ -330,6 +396,8 @@ body > header {
   background-image: url('../images/header.jpg');
   text-align: center;
   height: 75%; }
+  body > header a {
+    display: block; }
 
 .g {
   display: -webkit-box;
