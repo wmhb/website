@@ -2,7 +2,14 @@ body > header{
     background-image: url('../images/header.jpg');
     text-align: center;
     height: 75%;
+    text-transform: uppercase;
     a{
         display: block;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 6rem;
     }
 }

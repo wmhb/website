@@ -207,20 +207,6 @@ td, th {
 @-ms-viewport {
   width: device-width; }
 
-.center-container {
-  position: relative; }
-
-.absolute-center {
-  width: 50%;
-  height: 50%;
-  overflow: auto;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-
 *, *:before, *:after {
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -395,9 +381,14 @@ a.custom {
 body > header {
   background-image: url('../images/header.jpg');
   text-align: center;
-  height: 75%; }
+  height: 75%;
+  text-transform: uppercase; }
   body > header a {
     display: block; }
+  body > header h1 {
+    font-size: 8rem; }
+  body > header h2 {
+    font-size: 6rem; }
 
 .g {
   display: -webkit-box;
@@ -676,7 +667,7 @@ body > header {
   .pane .pane {
     max-width: auto; }
   .pane--prim1 {
-    background-color: #3498db;
+    background-color: #fcc500;
     border-left: 1rem solid #2980b9; }
   .pane--prim2 {
     background-color: #1abc9c;
@@ -700,7 +691,7 @@ body > header {
       padding-top: 5rem; } }
 
 .btn {
-  background: #3498db;
+  background: #fcc500;
   border: 1px solid #2980b9;
   color: white;
   display: inline-block;
@@ -720,7 +711,7 @@ body > header {
   .btn:hover {
     background: #2980b9; }
   .pane--prim1 .btn {
-    background: #3498db;
+    background: #fcc500;
     border: 1px solid #2980b9; }
     .pane--prim1 .btn:hover {
       background: #2980b9; }
