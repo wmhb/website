@@ -8,14 +8,10 @@ $lightergrey    : lighten($black, 90%);
 $white          : rgb(255,255,255);
 
 // primarycolors:
-$prim1:  rgb(252, 197, 0);    // blue - peter river
-$prim1d:  rgb(41, 128, 185);
-$prim2:  rgb(26, 188, 156);    // green
-$prim2d:  rgb(39, 174, 96);
-$prim3:  rgb(231, 76, 60);    // red
-$prim3d:  rgb(192, 57, 43);
-$prim4:  rgb(52, 73, 94);    // anthrazit
-$prim4d:  rgb(44, 62, 80);
+$prim1:  rgb(252, 197, 0);
+$prim2:  rgb(0,0,0);
+$prim3:  rgb(231, 76, 60);
+$prim4:  rgb(52, 73, 94);
 
 $success-color: green;
 $alert-color:   red;
@@ -26,7 +22,7 @@ $maxWidth:      1440px;
 $bgHeader:      $prim3;
 $text-color:    $black;
 $head-color:    $black;
-$link-color:    $prim4;
+$link-color:    $prim1;
 $bg-color:      white;
 $border-color:  $prim2;
 $code-bg-color: $grey;
