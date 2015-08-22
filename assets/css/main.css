@@ -207,8 +207,17 @@ td, th {
 @-ms-viewport {
   width: device-width; }
 
-.image--round {
-  border-radius: 50%; }
+.gmapContainer {
+  position: relative;
+  padding-bottom: 50% !important;
+  height: 0;
+  overflow: hidden; }
+  .gmapContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 *, *:before, *:after {
   -ms-box-sizing: border-box;
