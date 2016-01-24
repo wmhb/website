@@ -14,8 +14,17 @@
 </head>
 <body>
 
-  <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
-  </header>
+    <nav class="navigation g">
+        <a href="#" class="layout__logo"><?php echo $site->title()->html() ?></a>
+        <a href="mailto:moin@webmontag-bremen.de?subject=Meine%20Webmontags-Vortrags-Idee&body=Moin," class="btn">Mitmachen!</a>
+    </nav>
+    <header class="layout__header" role="banner">
+    <?php 
+        $nextMonday = $site->children()->find('events')->children()->flip()->visible()->first();
+    ?>
+
+        <a href="#" title="some title" class="header__link">
+            <h1><?php echo $nextMonday->title(); ?> </h1>
+            <h2><?php echo $nextMonday->date('d.m.Y'); ?> </h2>
+        </a>
+    </header>
