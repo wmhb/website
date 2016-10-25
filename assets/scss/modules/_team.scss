@@ -1,0 +1,25 @@
+.team {
+    position: relative;
+    
+    > div {
+        &:first-of-type {
+            padding-left: 0;
+            padding-right: 4%;
+        }
+        &:last-of-type {
+            padding-left: 4%;
+            padding-right: 0;
+        }
+    }
+
+    > h3, h4 {
+        text-align: left;
+    }
+
+    &__member-img {
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+}

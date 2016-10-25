@@ -745,6 +745,20 @@ iframe {
     .talk__meta > li {
       display: inline-block; }
 
+.team {
+  position: relative; }
+  .team > div:first-of-type {
+    padding-left: 0;
+    padding-right: 4%; }
+  .team > div:last-of-type {
+    padding-left: 4%;
+    padding-right: 0; }
+  .team > h3, .team h4 {
+    text-align: left; }
+  .team__member-img img {
+    width: 100%;
+    border-radius: 50%; }
+
 .archive__itself ul {
   list-style-type: none;
   padding: 0; }
