@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
     <meta name="author" content="Florenz Heldermann">
@@ -22,7 +23,9 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@webmontag_hb" />
 
-  <?php echo css('assets/css/main.css') ?>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+    <?php echo css('assets/css/main.css') ?>
 
 </head>
 <body>

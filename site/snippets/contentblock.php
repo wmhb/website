@@ -5,7 +5,7 @@
         </h1>
         <article class="gi gi--full gi gi--sm-3of4">
             <div class="about__text">
-                <?php echo $data->text() ?>
+                <?php echo kirbytext($data->text()) ?>
             </div>
         </article>
     </div>

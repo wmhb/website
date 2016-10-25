@@ -54,7 +54,7 @@ p{
     font-family: $font-main;
     color: $text-color;
     letter-spacing: 0.01em;
-    line-height: $line-height;
+    line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     hyphens: auto;
     .multicolumn &{

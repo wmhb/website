@@ -1,4 +1,4 @@
-    <footer role="contentinfo">
+    <footer class="footer" role="contentinfo">
         <section class="g">
             <div class="gi gi--full"> 
                 <?php echo $site->copyright()->kirbytext() ?>
