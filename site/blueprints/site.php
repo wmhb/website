@@ -6,6 +6,10 @@ fields:
   title:
     label: Title
     type:  text
+  siteBgImage:
+    label: Author Image
+    type:  image
+    width: 1/2
   author:
     label: Author
     type:  text
