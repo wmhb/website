@@ -2,12 +2,6 @@
 
 class TagsField extends TextField {
 
-  static public $assets = array(
-    'js' => array(
-      'tags.js'
-    )
-  );
-
   public function __construct() {
 
     $this->icon      = 'tag';
@@ -34,14 +28,17 @@ class TagsField extends TextField {
 
     } else if($page = $this->page()) {
 
-      empty($this->field) ? $field = $this->name() : $field = $this->field;
+      $field = empty($this->field) ? $this->name() : $this->field;
+      $model = is_a($this->model, 'File') ? 'file' : 'page';
 
       $query = array(
         'uri'       => $page->id(),
         'index'     => $this->index(),
         'field'     => $field,
         'yaml'      => $this->parentField,
+        'model'     => $model,
         'separator' => $this->separator(),
+        '_csrf'     => panel()->csrf(),
       );
 
       $input->data('url', panel()->urls()->api() . '/autocomplete/field?' . http_build_query($query));

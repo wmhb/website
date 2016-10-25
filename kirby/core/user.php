@@ -91,8 +91,13 @@ abstract class UserAbstract {
     return in_array($this->role()->id(), $roles);
   }
 
+  // support for old 'panel' role permission
   public function hasPanelAccess() {
-    return $this->role()->hasPanelAccess();
+    return $this->role()->hasPermission('panel.access');
+  }
+
+  public function hasPermission($target) {
+    return $this->role()->hasPermission($target);
   }
 
   public function isAdmin() {
@@ -103,20 +108,9 @@ abstract class UserAbstract {
 
     if(isset($this->cache['avatar'])) return $this->cache['avatar'];
 
-    // allowed extensions
-    $extensions = array('jpg', 'jpeg', 'png', 'gif');
+    $avatar = new Avatar($this);
 
-    // try to find the avatar
-    $root = kirby::instance()->roots()->avatars() . DS . $this->username();
-
-    foreach($extensions as $ext) {
-      $file = $root . '.' . $ext;
-      if(file_exists($file)) {
-        return $this->cache['avatar'] = new Media($file, kirby::instance()->urls()->avatars() . '/' . f::filename($file));
-      }
-    }
-
-    return $this->cache['avatar'] = false;
+    return $this->cache['avatar'] = $avatar->exists() ? $avatar : false;
 
   }
 
@@ -130,6 +124,10 @@ abstract class UserAbstract {
 
   protected function file() {
     return kirby::instance()->roots()->accounts() . DS . $this->username() . '.php';
+  }
+
+  public function textfile() {
+    return $this->file();
   }
 
   public function exists() {
@@ -150,38 +148,32 @@ abstract class UserAbstract {
 
     if(!password::match($password, $this->password)) return false;
 
+    // create a new session id
+    s::regenerateId();
+
     $key    = $this->generateKey();
     $secret = $this->generateSecret($key);
 
-    // http only cookie
-    cookie::set('kirby', $key, 0, '/', null, false, true);
+    s::set('kirby_auth_secret', $secret);
+    s::set('kirby_auth_username', $this->username());
 
-    s::set('auth.created', time());
-    s::set('auth.updated', time());
-    s::set('auth.key', $key);
-    s::set('auth.secret', $secret);
-    s::set('auth.username', $this->username());
-    s::set('auth.ip', visitor::ip());
-    s::set('auth.ua', visitor::ua());
+    cookie::set(
+      s::$name . '_auth', 
+      $key, 
+      s::$cookie['lifetime'], 
+      s::$cookie['path'], 
+      s::$cookie['domain'], 
+      s::$cookie['secure'], 
+      s::$cookie['httponly']
+    );
 
     return true;
 
   }
 
   static public function logout() {
-
-    s::regenerateId();
-
-    s::remove('auth.created');
-    s::remove('auth.updated');
-    s::remove('auth.key');
-    s::remove('auth.secret');
-    s::remove('auth.username');
-    s::remove('auth.ip');
-    s::remove('auth.ua');
-    
-    cookie::remove('key');
-
+    s::destroy();    
+    cookie::remove(s::$name . '_auth');
   }
 
   public function is($user) {
@@ -318,29 +310,24 @@ abstract class UserAbstract {
 
   }
 
+  static public function unauthorize() {
+    s::remove('kirby_auth_secret');
+    s::remove('kirby_auth_username');
+    cookie::remove('kirby_auth');
+  }
+
   static public function current() {
 
-    $cookey   = cookie::get('kirby'); 
-    $username = s::get('auth.username'); 
+    $cookey   = cookie::get(s::$name . '_auth'); 
+    $username = s::get('kirby_auth_username'); 
 
-    if(empty($cookey) or $cookey !== s::get('auth.key')) {
-      static::logout();
+    if(empty($cookey)) {
+      static::unauthorize();
       return false;
     }
 
-    if(s::get('auth.secret') !== sha1($username . $cookey)) {
-      static::logout();
-      return false;
-    }
-
-    if(s::get('auth.ua') !== visitor::ua()) {
-      static::logout();
-      return false;
-    }
-
-    // keep logged in for one week max.
-    if(s::get('auth.created') < time() - (60 * 60 * 24 * 7)) {
-      static::logout();
+    if(s::get('kirby_auth_secret') !== sha1($username . $cookey)) {
+      static::unauthorize();
       return false;
     }
 
@@ -349,6 +336,7 @@ abstract class UserAbstract {
       $user = new static($username);
       return $user;
     } catch(Exception $e) {
+      static::unauthorize();
       return false;
     }
 
