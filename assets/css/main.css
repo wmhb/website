@@ -723,6 +723,28 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.talk {
+  position: relative; }
+  .talk__img {
+    float: left;
+    padding-right: 20px;
+    width: 20%; }
+  .talk__info {
+    float: left;
+    margin-top: .5rem;
+    width: 80%; }
+    .talk__info p {
+      font-size: 1.7rem;
+      margin-top: 0;
+      margin-bottom: 0; }
+  .talk__meta {
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .talk__meta > li {
+      display: inline-block; }
+
 .archive__itself ul {
   list-style-type: none;
   padding: 0; }

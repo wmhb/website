@@ -2,19 +2,38 @@ Title: Webmontag I/2016
 
 ----
 
-Date: 
+Date: 2016-01-25
 
 ----
 
-Time: 
+Time1: 18:30 Uhr
 
 ----
 
-Address: 
+Time2: 19:00 Uhr
 
 ----
 
-Facebook: 
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Talks: 
+
+- 
+  speaker: Lars Peterke
+  title: Laravel
+  desc: Lars redet über Laravel
+  img: lars-peterke-foto.256x256.jpg
+  twitter: larspeterke
+  xing: >
+    https://www.xing.com/profile/Lars_Peterke
+  linkedin: ""
+  homepage: ""
+
+----
+
+Facebook: https://www.facebook.com/events/1672443486374303/permalink/1674551769496808/
 
 ----
 
