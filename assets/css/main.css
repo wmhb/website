@@ -344,12 +344,12 @@ h1, .alpha {
   line-height: 1.2; }
 
 h2, .beta {
-  font-size: 25px;
-  font-size: 2.5rem; }
+  font-size: 34px;
+  font-size: 3.4rem; }
 
 h3, .gamma {
-  font-size: 22px;
-  font-size: 2.2rem; }
+  font-size: 34px;
+  font-size: 3.4rem; }
 
 h4, .delta {
   font-size: 20px;
@@ -362,10 +362,6 @@ h5, .epsilon {
 h6, .zeta {
   font-size: 20px;
   font-size: 2rem; }
-
-@media screen and (min-width: 768px) {
-  article h1, article h2, article h3, article h4 {
-    text-align: center; } }
 
 pre, code, kbd, samp {
   font-family: monospace, sans-serif; }
@@ -402,9 +398,7 @@ a {
   color: #fcc500;
   font-weight: normal; }
   a:hover, a:active, a:focus {
-    text-decoration: none; }
-  a:active, a:focus {
-    outline: none; }
+    text-decoration: underline; }
 
 img {
   height: auto;
@@ -443,6 +437,9 @@ iframe {
   .layout__header h1, .layout__header h2 {
     color: white;
     text-align: center; }
+  .layout__header--small {
+    height: 39vh;
+    min-height: 4rem; }
 
 .header__link {
   display: block;
@@ -717,8 +714,8 @@ iframe {
     min-height: 50vh; }
   .pane--third {
     min-height: 33vh; }
-  .pane h1, .pane h2 {
-    margin: 0; }
+  .pane h1, .pane h2, .pane h3, .pane h4 {
+    margin: 0 0 1rem; }
   @media (min-width: 480px) {
     .pane {
       padding-top: 5rem; } }
@@ -762,6 +759,18 @@ iframe {
 .archive__itself ul {
   list-style-type: none;
   padding: 0; }
+  .archive__itself ul li {
+    margin-bottom: 1rem; }
+
+.archive__quicktalks {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .archive__quicktalks > li {
+    margin: 0 0 4px; }
+
+.archive__quicktitle {
+  font-weight: 700; }
 
 .about img {
   width: 100%; }

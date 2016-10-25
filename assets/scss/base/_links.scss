@@ -4,13 +4,14 @@ a{
     text-decoration: none;
     color: $link-color;
     font-weight: $link-weight;
+
     &:hover,
     &:active,
     &:focus{
-        text-decoration:none;
+        text-decoration: underline;;
     }
     &:active,
     &:focus{
-        outline:none;
+        // outline:none;
     }
 }

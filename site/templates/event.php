@@ -15,9 +15,9 @@
                         Verfolge das Event <a title="<?php echo $page->title()->html() ?> auf Facebook" href="<?php echo $page->facebook(); ?>">auf Facebook</a>
                     </li>
                 </ul>
+                <?php echo $page->text()->kirbytext() ?>
             </div>
             <div class="gi gi--1of2">
-                <?php echo $page->text()->kirbytext() ?>
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
                 <div class="talk">
 

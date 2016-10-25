@@ -15,8 +15,8 @@
     &--half{ min-height:  50vh; }
     &--third{ min-height: 33vh; }
 
-    h1, h2 {
-        margin: 0;
+    h1, h2, h3, h4 {
+        margin: 0 0 1rem;
     }
     @media (min-width: $screen-xs){
         padding-top: $nav-height;

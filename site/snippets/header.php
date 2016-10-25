@@ -23,7 +23,7 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@webmontag_hb" />
 
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 
     <?php echo css('assets/css/main.css') ?>
 
@@ -50,5 +50,12 @@
             <h1><?php echo $nextMonday->title(); ?> </h1>
             <h2><?php echo $nextMonday->date('d.m.Y'); ?> </h2>
         </a>
+    </header>
+    <?php else : ?>
+    <header class="layout__header layout__header--small" role="banner"
+        <?php if ($bgImage = $page->image($site->customheader())): ?>
+        style="background: url(<?php echo $bgImage->url() ?>) center center/ cover no-repeat; "
+        <?php endif; ?>
+    >
     </header>
     <?php endif ?>

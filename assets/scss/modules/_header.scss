@@ -16,6 +16,11 @@
         color: $white;
         text-align: center;
     }
+
+    &--small {
+        height: 39vh;
+        min-height: 4rem;
+    }
 }
 .header__link{
     display: block;

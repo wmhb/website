@@ -1,0 +1,79 @@
+Title: Webmontag II/2016
+
+----
+
+Date: 2016-03-21
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Talks: 
+
+- 
+  speaker: Ulf Nawrot
+  title: 'Analoger Anfang ist schwer: Layouten ohne Ladekabel'
+  desc: >
+    Es muss nicht immer Digital sein. Ulf
+    Nawrot zeigt erzählt über Scribbles
+    und bricht für Stift und Kladde eine
+    Lanze.
+  img: ulf.jpg
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://teamnawrot.de
+- 
+  speaker: Rico Saßen
+  title: Warum Mathe scheiße ist!
+  desc: >
+    Jeder Kennt jemanden der Mathe scheiße
+    findet. Warum ist das so? Was sind die
+    Gründe? Und was hat das mit unserem
+    Alltag und der Arbeit zu tun?
+  img: rico.jpg
+  twitter: ricosassen
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Florenz Heldermann
+  title: Vim, Tmux, ftw!
+  desc: >
+    Warum nutzt jemand freiwillig einen
+    Editor aus den 90ern und wieso arbeitet
+    man bereitwillig nur in der
+    Kommandozeile? Warum verschmäht man
+    freiwillig die Vorteile einer IDE und
+    wer drückt :w um ein Dokument zu
+    speichern? Florenz erzählt über den
+    Vim Editor.
+  img: 1avlbf0v.jpg
+  twitter: track02
+  xing: >
+    https://www.xing.com/profile/Florenz_Heldermann?
+  linkedin: >
+    https://www.linkedin.com/in/florenzheldermann
+  homepage: http://flore.nz
+
+----
+
+Facebook: https://www.facebook.com/events/598877366942793/
+
+----
+
+Text: 
+
+Ein weiteres Mal wollen wir euch zum Webmontag einladen. Der zweite Webmontag dieses Jahr findet wieder im Karton in der Bremer Neustadt statt. Dieses Mal erzählt u.a. Ulf Nawrot von (link: http://www.teamnawrot.de/ text: Team Nawrot) über seine analogen Designansatz, Webmontag Dauergast Rico Sassen redet über in seinem Talk über den Ansatz der Schul Mathematik und inspiriert ganz nebenbei und zum Schluss erzählt (link: http://flore.nz text: Florenz) über seinen Lieblingseditor, der allerdings schon etwas betagt ist. 
+
+Anschließend gibt es wie immer subventionierte Getränke und gute Gespräche mit den Sprechern und auch untereinander.

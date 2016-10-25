@@ -9,6 +9,9 @@ fields:
   title:
     label: Title
     type:  text
+  customheader
+    title: Custom Header Image
+    type: image
   date:
     label: Date
     type: date
@@ -23,6 +26,9 @@ fields:
     type: text
     default: 19:00 Uhr
     width: 1/3
+  text:
+    label: Text
+    type:  textarea
   address:
     label: Address
     type: textarea
@@ -64,6 +70,3 @@ fields:
   facebook:
     label: Facebook Event URL
     type:  text
-  text:
-    label: Text
-    type:  textarea
