@@ -33,9 +33,12 @@
         transition: color .4s ease;
     }
 }
+.navigation-wrapper {
+    background-color: $black;
+}
+
 .navigation{
     padding: 1em 2em;
-    background-color: $black;
     color: $white;
     justify-content: space-between;
     align-items: center;

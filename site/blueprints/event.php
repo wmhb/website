@@ -2,6 +2,7 @@
 
 title: Event
 pages: false
+template: event
 files:
   sortable: true
 fields:
@@ -17,6 +18,7 @@ fields:
   address:
     label: Address
     type: textarea
+    default: Karton - Alte Schnapsfabrik / Am Deich 86 / 28199 Bremen
   facebook:
     label: Facebook link
     type:  text
