@@ -70,7 +70,7 @@ body {
     }
 }
 
-.main, .header, .header--small, footer, .browserupgrade{
+.main, .header, .header--small, .browserupgrade{
     max-width: $maxWidth;
     margin: 0 auto;
 }
@@ -85,5 +85,3 @@ body {
         max-width: 320px;
     }
 }
-
-

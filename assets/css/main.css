@@ -310,7 +310,7 @@ body {
     text-decoration: underline;
     font-weight: bold; }
 
-.main, .header, .header--small, footer, .browserupgrade {
+.main, .header, .header--small, .browserupgrade {
   max-width: 1440px;
   margin: 0 auto; }
 
