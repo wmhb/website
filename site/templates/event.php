@@ -3,7 +3,7 @@
   <main class="g g--col" role="main">
 
     <article class="gi--full gi--center event">
-        <h2 class="event__title"><?php echo $page->title()->html() ?></h2>
+        <h2 class="event__title"><?php echo $page->title()->html() ?> - <?php echo $page->date('d.m.Y'); ?> - <?php echo $page->time1()->html() ?></h2>
         <div class="g">
             <div class="gi gi--1of2">
                 <ul class="event__meta">
@@ -11,7 +11,7 @@
                     <li><strong>Einlass:</strong> <?php echo $page->time1()->html() ?></li>
                     <li><strong>Beginn:</strong> <?php echo $page->time2()->html() ?></li>
                 </ul>
-    
+
                 <?php echo $page->text()->kirbytext(); ?>
 
                 <p>
@@ -32,7 +32,7 @@
                     <?php if ( $talk->img()->isNotEmpty() ) : ?>
                     <figure class="talk__img">
                         <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
-                    </figure> 
+                    </figure>
                     <?php endif; ?>
 
                     <div class="talk__info">
