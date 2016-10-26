@@ -720,6 +720,29 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.event {
+  position: relative;
+  padding-top: 3rem; }
+  .event__title {
+    display: block; }
+  @media screen and (min-width: 768px) {
+    .event__title {
+      position: absolute;
+      top: -92px;
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 2rem 0;
+      margin-left: -2998rem;
+      margin-right: -3000rem;
+      padding-left: 3000rem;
+      padding-right: 3000rem; } }
+  .event__meta {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .event__meta > li {
+      margin-bottom: .5rem; }
+
 .talk {
   position: relative; }
   .talk__img {
@@ -728,7 +751,8 @@ iframe {
     width: 20%; }
   .talk__info {
     float: left;
-    margin-top: .5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
     width: 80%; }
     .talk__info p {
       font-size: 1.7rem;
@@ -736,11 +760,12 @@ iframe {
       margin-bottom: 0; }
   .talk__meta {
     font-size: 1.7rem;
-    margin: 0;
+    margin: 1rem 0 0;
     padding: 0;
     list-style: none; }
     .talk__meta > li {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: .5rem; }
 
 .team {
   position: relative; }

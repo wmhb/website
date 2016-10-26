@@ -14,6 +14,10 @@ Time2: 19:00 Uhr
 
 ----
 
+Customheader: 14694550296_452618c3e0_k.jpg
+
+----
+
 Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
 
 ----
@@ -65,6 +69,8 @@ Talks:
   linkedin: >
     https://www.linkedin.com/in/florenzheldermann
   homepage: http://flore.nz
+  slides: >
+    http://presentedby.flore.nz/vim-tmux.html
 
 ----
 
@@ -77,3 +83,7 @@ Text:
 Ein weiteres Mal wollen wir euch zum Webmontag einladen. Der zweite Webmontag dieses Jahr findet wieder im Karton in der Bremer Neustadt statt. Dieses Mal erzählt u.a. Ulf Nawrot von (link: http://www.teamnawrot.de/ text: Team Nawrot) über seine analogen Designansatz, Webmontag Dauergast Rico Sassen redet über in seinem Talk über den Ansatz der Schul Mathematik und inspiriert ganz nebenbei und zum Schluss erzählt (link: http://flore.nz text: Florenz) über seinen Lieblingseditor, der allerdings schon etwas betagt ist. 
 
 Anschließend gibt es wie immer subventionierte Getränke und gute Gespräche mit den Sprechern und auch untereinander.
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg

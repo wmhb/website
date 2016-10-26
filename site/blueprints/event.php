@@ -9,8 +9,8 @@ fields:
   title:
     label: Title
     type:  text
-  customheader
-    title: Custom Header Image
+  customheader:
+    label: Custom Header Image
     type: image
   date:
     label: Date
@@ -33,9 +33,13 @@ fields:
     label: Address
     type: textarea
     default: > 
-        Karton - Alte Schnapsfabrik </br>
-        Am Deich 86 </br>
-        28199 Bremen
+      Karton - Alte Schnapsfabrik </br>
+      Am Deich 86 </br>
+      28199 Bremen
+  map:
+    label: Google Map Link
+    type: text
+    default: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
   talks:
     label: Sprecher
     type: structure
@@ -52,6 +56,9 @@ fields:
       desc:
         label: Talk Beschreibung
         type: textarea
+      slides: 
+        label: Slides online?
+        type: text
       img:
         label: Beispielbild / Sprecherbild / Whatever
         type: image

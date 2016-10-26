@@ -1,3 +1,33 @@
+.event {
+    position: relative;
+    padding-top: 3rem;
+    &__title {
+        display: block;
+    }
+    @media screen and (min-width: $screen-sm-min) {
+        &__title {
+            position: absolute;
+            top: -92px;
+            color: white;
+            background: rgba(0,0,0, .6);
+            padding: 2rem 0;
+            margin-left: -2998rem;
+            margin-right: -3000rem;
+            padding-left: 3000rem;
+            padding-right: 3000rem;
+        }
+    }
+
+    &__meta {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        > li {
+            margin-bottom: .5rem;
+        }
+    }
+}
+
 .talk {
     position: relative;
 
@@ -8,7 +38,8 @@
     }
     &__info {
         float: left;
-        margin-top: .5rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
         width: 80%;
         p {
             font-size: 1.7rem;
@@ -21,11 +52,12 @@
     // &__description {}
     &__meta {
         font-size: 1.7rem;
-        margin: 0;
+        margin: 1rem 0 0;
         padding: 0;
         list-style: none;
         > li { 
             display: inline-block;
+            margin-right: .5rem;
         }
     }
 }

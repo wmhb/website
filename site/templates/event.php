@@ -3,19 +3,27 @@
   <main class="g g--col" role="main">
 
     <article class="gi--full gi--center event">
-        <h2><?php echo $page->title()->html() ?></h2>
+        <h2 class="event__title"><?php echo $page->title()->html() ?></h2>
         <div class="g">
             <div class="gi gi--1of2">
-                <ul>
-                    <li>Einlass: <?php echo $page->time1()->html() ?></li>
-                    <li>Beginn: <?php echo $page->time2()->html() ?></li>
-                    <li><?php echo $page->date('d.m.Y'); ?></li>
-                    <li><?php echo $page->address()->html(); ?></li>
-                    <li>
-                        Verfolge das Event <a title="<?php echo $page->title()->html() ?> auf Facebook" href="<?php echo $page->facebook(); ?>">auf Facebook</a>
-                    </li>
+                <ul class="event__meta">
+                    <li><strong>Wann: </strong><?php echo $page->date('d.m.Y'); ?></li>
+                    <li><strong>Einlass:</strong> <?php echo $page->time1()->html() ?></li>
+                    <li><strong>Beginn:</strong> <?php echo $page->time2()->html() ?></li>
                 </ul>
-                <?php echo $page->text()->kirbytext() ?>
+    
+                <?php echo $page->text()->kirbytext(); ?>
+
+                <p>
+                    <em>
+                    Verfolge das Event <a title="<?php echo $page->title()->html() ?> auf Facebook" href="<?php echo $page->facebook(); ?>">auf Facebook</a>
+                    </em>
+                </p>
+                <h4>Wo: </h4>
+                <?php echo $page->address()->html(); ?>
+                <p>
+                    <a href="<?php echo $page->map(); ?>">Auf Karte anzeigen</a>
+                </p>
             </div>
             <div class="gi gi--1of2">
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
@@ -23,7 +31,7 @@
 
                     <?php if ( $talk->img()->isNotEmpty() ) : ?>
                     <figure class="talk__img">
-                        <?php echo thumb($page->image($talk->img()), array('width' => 70) ); ?>
+                        <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
                     </figure> 
                     <?php endif; ?>
 
@@ -38,28 +46,51 @@
                                 <?php echo $talk->title(); ?>
                             </strong>
                         </p>
+
+                        <?php if ( $talk->desc()->isNotEmpty() ) : ?>
                         <p class="talk__description">
-                                <?php echo $talk->desc()->kirbytext(); ?>
+                            <?php echo $talk->desc()->kirbytext(); ?>
                         </p>
+                        <?php endif; ?>
+
                         <ul class="talk__meta">
+                            <?php if ( $talk->twitter()->isNotEmpty() ) : ?>
                             <li>
                                 <?php echo twitter($talk->twitter()); ?>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if ( $talk->slides()->isNotEmpty() ) : ?>
+                            <li>
+                                <a href="<?php echo $talk->slides(); ?>">
+                                    Slides
+                                </a>
+                            </li>
+                            <?php endif; ?>
+
+                            <?php if ( $talk->xing()->isNotEmpty() ) : ?>
                             <li>
                                 <a href="<?php echo $talk->xing(); ?>">
                                     Xing
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if ( $talk->linkedin()->isNotEmpty() ) : ?>
                             <li>
                                 <a href="<?php echo $talk->linkedin(); ?>">
                                     LinkedIn
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if ( $talk->homepage()->isNotEmpty() ) : ?>
                             <li>
                                 <a href="<?php echo $talk->homepage(); ?>">
                                     Webseite
                                 </a>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>
