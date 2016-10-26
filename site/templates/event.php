@@ -96,6 +96,28 @@
                 </div>
                 <?php endforeach ?>
             </div>
+            <?php if ( $page->featured_media1()->isNotEmpty() ) : ?>
+            <div class="gi gi--full">
+                <h3>Nachlese</h3>
+                <div class="event__mediawall">
+                    <?php if ( $page->featured_media1()->isNotEmpty() ) : ?>
+                        <?php echo $page->featured_media1()->oembed(); ?>
+                    <?php endif; ?>
+                    <?php if ( $page->featured_media2()->isNotEmpty() ) : ?>
+                        <?php echo $page->featured_media2()->oembed(); ?>
+                    <?php endif; ?>
+                    <?php if ( $page->featured_media3()->isNotEmpty() ) : ?>
+                        <?php echo $page->featured_media3()->oembed(); ?>
+                    <?php endif; ?>
+                    <?php if ( $page->featured_media4()->isNotEmpty() ) : ?>
+                        <?php echo $page->featured_media4()->oembed(); ?>
+                    <?php endif; ?>
+                    <?php if ( $page->featured_media5()->isNotEmpty() ) : ?>
+                        <?php echo $page->featured_media5()->oembed(); ?>
+                    <?php endif; ?>
+                </div>
+            </div>
+            <?php endif; ?>
         </div>
     </article>
 

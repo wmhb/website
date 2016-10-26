@@ -26,6 +26,19 @@
             margin-bottom: .5rem;
         }
     }
+
+    &__mediawall {
+        @media screen and (min-width: $screen-sm-min) {
+            column-count: 2;
+            // column-gap: 1rem;
+            
+            > * {
+                -webkit-column-break-inside: avoid;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+        }
+    }
 }
 
 .talk {
