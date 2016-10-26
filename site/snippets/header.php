@@ -33,7 +33,7 @@
 
     <nav class="navigation-wrapper" role="navigation">
         <div class="g navigation">
-            <a href="#" class="layout__logo"><?php echo $site->title()->html() ?></a>
+            <a href="/" class="layout__logo"><?php echo $site->title()->html() ?></a>
             <a href="mailto:moin@webmontag-bremen.de?subject=Meine%20Webmontags-Vortrags-Idee&body=Moin," class="btn">Mitmachen!</a>
         </div>
     </nav>
@@ -43,7 +43,7 @@
         style="background: url(<?php echo $bgImage->url() ?>) center center/ cover no-repeat; "
         <?php endif; ?>
     >
-        <?php 
+        <?php
             $nextMonday = $site->children()->find('events')->children()->flip()->visible()->first();
         ?>
 

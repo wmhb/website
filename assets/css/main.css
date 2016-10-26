@@ -395,7 +395,7 @@ pre, code, kbd, samp {
 
 a {
   text-decoration: none;
-  color: #fcc500;
+  color: #27ae60;
   font-weight: normal; }
   a:hover, a:active, a:focus {
     text-decoration: underline; }
@@ -453,7 +453,7 @@ iframe {
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
   color: white; }
   .layout__logo:hover {
-    color: #fcc500;
+    color: #27ae60;
     -webkit-transition: color .4s ease;
             transition: color .4s ease; }
 
@@ -701,7 +701,7 @@ iframe {
   .pane .pane {
     max-width: auto; }
   .pane--prim1 {
-    background-color: #fcc500; }
+    background-color: #27ae60; }
   .pane--prim2 {
     background-color: black; }
   .pane--prim3 {
@@ -825,7 +825,7 @@ iframe {
   margin-top: 0; }
 
 .btn {
-  background: #fcc500;
+  background: #27ae60;
   text-transform: uppercase;
   color: white;
   display: inline-block;
@@ -843,7 +843,7 @@ iframe {
     .btn {
       width: auto; } }
   .pane--prim1 .btn {
-    background: #fcc500; }
+    background: #27ae60; }
   .pane--prim2 .btn {
     background: black; }
   .pane--prim3 .btn {

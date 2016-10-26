@@ -1,10 +1,10 @@
-Title: Team
+Title: Team:
 
 ----
 
-Teammembers: 
+Teammembers:
 
-- 
+-
   speaker: Kevin Heil
   desc: '28 und kein bisschen dazu gelernt #schimpfwortphilosoph Grundlegend vorzeigbar.'
   img: 09fd3e369768392ae8b15ed8d4587267.jpg
@@ -13,7 +13,7 @@ Teammembers:
   linkedin: ""
   homepage: http://7meter17.de
   name: Kevin Heil
-- 
+-
   name: Florenz Heldermann
   desc: "Bunt ist das Dasein und Granatenstark // Freelance Frontend enthusiast, coffee addicted, videogame junkie // I'm also podcaster at @halbwissencast ¯\_(ツ)_/¯"
   img: 1avlbf0v.jpg
@@ -21,7 +21,7 @@ Teammembers:
   xing: ""
   linkedin: ""
   homepage: http://flore.nz
-- 
+-
   name: Andreas Dantz
   desc: >
     ceo @braveandhungry, podcaster
@@ -31,7 +31,7 @@ Teammembers:
   xing: ""
   linkedin: ""
   homepage: http://braveandhungry.com
-- 
+-
   name: Dennis Gieseler
   desc: >
     Frontend Developer, CSS Enthusiast,
