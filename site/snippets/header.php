@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 
     <?php echo css('assets/css/main.css') ?>
+    <?php echo css('assets/plugins/oembed/css/oembed.css') ?>
 
 </head>
 <body>

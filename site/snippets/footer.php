@@ -11,5 +11,6 @@
     <script src="assets/js/main.js"></script>
     <script src="//use.typekit.net/bht2jwf.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <?php echo js('assets/plugins/oembed/js/oembed.js') ?>
 </body>
 </html>
