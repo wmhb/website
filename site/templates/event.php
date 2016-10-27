@@ -14,16 +14,23 @@
 
                 <?php echo $page->text()->kirbytext(); ?>
 
+                <?php if ( $page->facebook()->isNotEmpty() ) : ?>
                 <p>
                     <em>
                     Verfolge das Event <a title="<?php echo $page->title()->html() ?> auf Facebook" href="<?php echo $page->facebook(); ?>">auf Facebook</a>
                     </em>
                 </p>
+                <?php endif; ?>
+
+                <?php if ( $page->address()->isNotEmpty() ) : ?>
                 <h4>Wo: </h4>
                 <?php echo $page->address()->html(); ?>
-                <p>
-                    <a href="<?php echo $page->map(); ?>">Auf Karte anzeigen</a>
-                </p>
+                    <?php if ( $page->map()->isNotEmpty() ) : ?>
+                    <p>
+                        <a class="btn" href="<?php echo $page->map(); ?>">Auf Karte anzeigen</a>
+                    </p>
+                    <?php endif; ?>
+                <?php endif; ?>
             </div>
             <div class="gi gi--1of2">
                 <?php foreach($page->talks()->toStructure() as $talk): ?>

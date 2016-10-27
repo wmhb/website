@@ -22,7 +22,7 @@
                             <?php endforeach ?>
                         </ul>
                         <p>
-                            <a href="<?php echo $project->url() ?>">Weiterlesen</a>
+                            <a class="btn" href="<?php echo $project->url() ?>">Weiterlesen</a>
                         </p>
                     </p>
                 </article>
