@@ -2,17 +2,21 @@
 
   <main class="g g--col" role="main">
 
-    <article class="gi--full gi--center event">
-        <h2 class="event__title"><?php echo $page->title()->html() ?> - <?php echo $page->date('d.m.Y'); ?> - <?php echo $page->time1()->html() ?></h2>
+    <article class="gi--full gi--center event" itemscope itemtype="http://schema.org/Event">
+        <h2 class="event__title" itemprop="name"><?php echo $page->title()->html() ?> - <?php echo $page->date('d.m.Y'); ?> - <?php echo $page->time1()->html() ?></h2>
         <div class="g">
             <div class="gi gi--1of2">
                 <ul class="event__meta">
-                    <li><strong>Wann: </strong><?php echo $page->date('d.m.Y'); ?></li>
-                    <li><strong>Einlass:</strong> <?php echo $page->time1()->html() ?></li>
+                    <li itemprop="startDate" content="<?php echo $page->date('Y-m-d'); ?>">
+                        <strong>Wann: </strong><?php echo $page->date('d.m.Y'); ?>
+                    </li>
+                    <li itemprop="doortime"><strong>Einlass:</strong> <?php echo $page->time1()->html() ?></li>
                     <li><strong>Beginn:</strong> <?php echo $page->time2()->html() ?></li>
                 </ul>
 
-                <?php echo $page->text()->kirbytext(); ?>
+                <div itemprop="description">
+                    <?php echo $page->text()->kirbytext(); ?>
+                </div>
 
                 <?php if ( $page->facebook()->isNotEmpty() ) : ?>
                 <p>
@@ -23,53 +27,59 @@
                 <?php endif; ?>
 
                 <?php if ( $page->address()->isNotEmpty() ) : ?>
-                <h4>Wo: </h4>
-                <?php echo $page->address()->html(); ?>
-                    <?php if ( $page->map()->isNotEmpty() ) : ?>
-                    <p>
-                        <a class="btn" href="<?php echo $page->map(); ?>">Auf Karte anzeigen</a>
-                    </p>
+                <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                    <h4>Wo: </h4>
+                    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <?php echo $page->address()->html(); ?>
+                    </span>
+                        <?php if ( $page->map()->isNotEmpty() ) : ?>
+                        <p itemprop="hasMap">
+                            <a class="btn" itemprop="map" itemtype="https://schema.org/Map" href="<?php echo $page->map(); ?>">
+                                Auf Karte anzeigen
+                            </a>
+                        </p>
+                        <?php endif; ?>
                     <?php endif; ?>
-                <?php endif; ?>
+                </div>
             </div>
             <div class="gi gi--1of2">
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
-                <div class="talk">
+                <div class="talk" itemprop="subEvent">
 
                     <?php if ( $talk->img()->isNotEmpty() ) : ?>
-                    <figure class="talk__img">
+                    <figure class="talk__img" itemprop="image">
                         <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
                     </figure>
                     <?php endif; ?>
 
                     <div class="talk__info">
                         <p class="talk__speaker">
-                            <em>
+                            <em itemprop="performer">
                                 <?php echo $talk->speaker(); ?>
                             </em>
                         </p>
-                        <p class="talk__title">
+                        <p class="talk__title" itemprop="name">
                             <strong>
                                 <?php echo $talk->title(); ?>
                             </strong>
                         </p>
 
                         <?php if ( $talk->desc()->isNotEmpty() ) : ?>
-                        <p class="talk__description">
+                        <p class="talk__description" itemprop="description">
                             <?php echo $talk->desc()->kirbytext(); ?>
                         </p>
                         <?php endif; ?>
 
                         <ul class="talk__meta">
                             <?php if ( $talk->twitter()->isNotEmpty() ) : ?>
-                            <li>
+                            <li itemprop="sameAs">
                                 <?php echo twitter($talk->twitter()); ?>
                             </li>
                             <?php endif; ?>
 
                             <?php if ( $talk->slides()->isNotEmpty() ) : ?>
                             <li>
-                                <a href="<?php echo $talk->slides(); ?>">
+                                <a itemprop="url" href="<?php echo $talk->slides(); ?>">
                                     Slides
                                 </a>
                             </li>
@@ -77,7 +87,7 @@
 
                             <?php if ( $talk->xing()->isNotEmpty() ) : ?>
                             <li>
-                                <a href="<?php echo $talk->xing(); ?>">
+                                <a itemprop="sameAs" href="<?php echo $talk->xing(); ?>">
                                     Xing
                                 </a>
                             </li>
@@ -85,7 +95,7 @@
 
                             <?php if ( $talk->linkedin()->isNotEmpty() ) : ?>
                             <li>
-                                <a href="<?php echo $talk->linkedin(); ?>">
+                                <a itemprop="sameAs" href="<?php echo $talk->linkedin(); ?>">
                                     LinkedIn
                                 </a>
                             </li>
@@ -93,7 +103,7 @@
 
                             <?php if ( $talk->homepage()->isNotEmpty() ) : ?>
                             <li>
-                                <a href="<?php echo $talk->homepage(); ?>">
+                                <a itemprop="sameAs" href="<?php echo $talk->homepage(); ?>">
                                     Webseite
                                 </a>
                             </li>

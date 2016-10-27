@@ -1,6 +1,11 @@
 .pane{
-    margin: 0 auto;
+    margin: 2rem auto 0;
     max-width: $maxWidth;
+
+    @media screen and (min-width: $screen-sm-min) {
+        margin: 0 auto;
+    } 
+
     .pane{
         max-width: auto;
     }
@@ -18,6 +23,14 @@
     h1, h2, h3, h4 {
         margin: 0 0 1rem;
     }
+    
+    .pane__title {
+        font-size: 2.2rem;
+        @media screen and (min-width: $screen-sm-min) {
+            @include font-size($font-size-h1);
+        } 
+    }
+
     @media (min-width: $screen-xs){
         padding-top: $nav-height;
     }

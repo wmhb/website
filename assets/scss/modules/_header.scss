@@ -33,6 +33,15 @@
     text-transform: uppercase;
     font-family: $font-heading;
     color: $white;
+    display: block;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: $screen-sm-min) {
+        display: inline-block;
+        margin: 0;
+    }
+
+
     &:hover{
         color: $prim1;
         transition: color .4s ease;

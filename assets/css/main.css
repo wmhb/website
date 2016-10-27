@@ -451,7 +451,13 @@ iframe {
 .layout__logo {
   text-transform: uppercase;
   font-family: "brandon-grotesque", "Helvetica-Neue", Helvetica, Arial, sans-serif;
-  color: white; }
+  color: white;
+  display: block;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 768px) {
+    .layout__logo {
+      display: inline-block;
+      margin: 0; } }
   .layout__logo:hover {
     color: #27ae60;
     -webkit-transition: color .4s ease;
@@ -696,8 +702,11 @@ iframe {
       width: 100%; } }
 
 .pane {
-  margin: 0 auto;
+  margin: 2rem auto 0;
   max-width: 1440px; }
+  @media screen and (min-width: 768px) {
+    .pane {
+      margin: 0 auto; } }
   .pane .pane {
     max-width: auto; }
   .pane--prim1 {
@@ -716,6 +725,12 @@ iframe {
     min-height: 33vh; }
   .pane h1, .pane h2, .pane h3, .pane h4 {
     margin: 0 0 1rem; }
+  .pane .pane__title {
+    font-size: 2.2rem; }
+    @media screen and (min-width: 768px) {
+      .pane .pane__title {
+        font-size: 34px;
+        font-size: 3.4rem; } }
   @media (min-width: 480px) {
     .pane {
       padding-top: 5rem; } }
@@ -786,9 +801,15 @@ iframe {
     padding-right: 0; }
   .team > h3, .team h4 {
     text-align: left; }
+  @media screen and (min-width: 768px) {
+    .team__member figcaption {
+      margin-top: 20px; } }
   .team__member-img img {
     width: 100%;
     border-radius: 50%; }
+
+.archive__recent {
+  margin-bottom: 3rem; }
 
 .archive__itself ul {
   list-style-type: none;

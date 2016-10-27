@@ -1,5 +1,7 @@
 .archive{
-    &__recent{}
+    &__recent{
+        margin-bottom: 3rem;
+    }
     &__itself{
         ul{
             list-style-type: none;
