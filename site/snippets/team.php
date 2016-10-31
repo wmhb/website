@@ -13,33 +13,35 @@
                     <figcaption>
                     <h4 itemprop="name"><?php echo $teammember->name() ?></h4>
                     <p itemprop="description"><?php echo $teammember->desc() ?></p>
-                    <ul class="talk__meta">
+                    <ul class="team__meta">
                         <?php if ( $teammember->twitter()->isNotEmpty() ) : ?>
-                        <li itemprop="sameAs">
-                            <?php echo twitter($teammember->twitter()); ?>
+                        <li >
+                            <a itemprop="sameAs" href="http://twitter.com/<?php echo $teammember->twitter(); ?>" title="Twitter">
+                                <img src="/assets/images/SVG/twitter2.svg" alt="Twitter">
+                            </a>
                         </li>
                         <?php endif; ?>
 
                         <?php if ( $teammember->xing()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $teammember->xing(); ?>">
-                                Xing
+                            <a itemprop="sameAs" href="<?php echo $teammember->xing(); ?>" title="Xing">
+                                <img src="/assets/images/SVG/xing.svg" alt="Xing">
                             </a>
                         </li>
                         <?php endif; ?>
 
                         <?php if ( $teammember->linkedin()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $teammember->linkedin(); ?>">
-                                LinkedIn
+                            <a itemprop="sameAs" href="<?php echo $teammember->linkedin(); ?>" title="Linkedin">
+                                <img src="/assets/images/SVG/linkedin.svg" alt="Linkedin">
                             </a>
                         </li>
                         <?php endif; ?>
 
                         <?php if ( $teammember->homepage()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $teammember->homepage(); ?>">
-                                Webseite
+                            <a itemprop="sameAs" href="<?php echo $teammember->homepage(); ?>" title="Webseite">
+                                <img src="/assets/images/SVG/share.svg" alt="Webseite">
                             </a>
                         </li>
                         <?php endif; ?>

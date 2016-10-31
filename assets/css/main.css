@@ -807,6 +807,14 @@ iframe {
   .team__member-img img {
     width: 100%;
     border-radius: 50%; }
+  .team__meta {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .team__meta > li {
+      display: inline-block; }
+      .team__meta > li a img {
+        max-width: 24px; }
 
 .sponsor {
   position: relative; }

@@ -18,8 +18,10 @@ Teammembers:
   desc: Organisation
   img: 1avlbf0v.jpg
   twitter: track02
-  xing: ""
-  linkedin: ""
+  xing: >
+    https://www.xing.com/profile/Florenz_Heldermann
+  linkedin: >
+    https://www.linkedin.com/in/florenzheldermann
   homepage: http://flore.nz
 - 
   name: Andreas Dantz
