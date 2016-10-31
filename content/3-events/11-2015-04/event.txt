@@ -4,7 +4,11 @@ Title: Webmontag IV/2015
 
 Text: 
 
-Die Vorträge folgen in Kürze
+Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die Speckflagge im Pixel-Art-Stil ein.
+
+Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.
+
+Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.
 
 ----
 
@@ -33,3 +37,74 @@ Sponsors: bremen digitalmedia
 ----
 
 Tags: 
+
+----
+
+Customheader: 
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Ole Rössner
+  title: 'Develop Yourself - Kata, Kumite & Randori'
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Denitsa Todorova
+  title: Creating a pixel art brand
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: 'Florian Bottmann & Fynn Kliemann'
+  title: 'Agantty: Die Agentur läuft, lass’ mal ein bisschen Geld versenken'
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

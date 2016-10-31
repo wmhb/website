@@ -29,3 +29,7 @@ Sponsors:
   desc: 'bremen digitalmedia ist der Interessenverband für Medien- und Informationstechnologie-Unternehmen des Landes Bremen. Seit 1997 stärken wir die Unternehmen am Standort, vertreten ihre Interessen, vernetzen, kooperieren und fördern!'
   img: b-dm_logo_rbg.svg
   homepage: http://www.bremen-digitalmedia.de/
+
+----
+
+Placeholderspeaker: speaker-placeholder.png

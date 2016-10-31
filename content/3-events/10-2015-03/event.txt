@@ -41,3 +41,76 @@ Sponsors: bremen digitalmedia
 ----
 
 Tags: 
+
+----
+
+Customheader: 
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Jörn Harnisch
+  title: Projekte aus dem Co-Working Space
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: 'Marthe Trottnow, Simon Denecke & Ahmed Mahmoud'
+  title: Making of Transportale
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Greta Streit
+  title: >
+    Wie man das weltbeste Webseitenkonzept
+    mit Leben füllt
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

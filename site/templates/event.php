@@ -24,6 +24,7 @@
                     Verfolge das Event <a title="<?php echo $page->title()->html() ?> auf Facebook" href="<?php echo $page->facebook(); ?>">auf Facebook</a>
                     </em>
                 </p>
+
                 <?php endif; ?>
 
                 <?php if ( $page->address()->isNotEmpty() ) : ?>
@@ -49,6 +50,10 @@
                     <?php if ( $talk->img()->isNotEmpty() ) : ?>
                     <figure class="talk__img" itemprop="image">
                         <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
+                    </figure>
+                    <?php else : ?>
+                    <figure class="talk__img" itemprop="image">
+                        <img src="/content/<?php echo $site->placeholderspeaker(); ?>" alt="">
                     </figure>
                     <?php endif; ?>
 

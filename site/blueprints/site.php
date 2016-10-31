@@ -42,6 +42,9 @@ fields:
       homepage:
         label: Webseite URL
         type: text
+  placeholderspeaker:
+    label: Platzhalterbild für fehlende Portraitaufnahmen
+    type:  image
   keywords:
     label: Keywords
     type:  tags

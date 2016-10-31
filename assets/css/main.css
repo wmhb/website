@@ -768,7 +768,8 @@ iframe {
         break-inside: avoid; } }
 
 .talk {
-  position: relative; }
+  position: relative;
+  clear: both; }
   .talk__img {
     float: left;
     padding-right: 20px;
@@ -793,20 +794,31 @@ iframe {
 
 .team {
   position: relative; }
-  .team > div:first-of-type {
-    padding-left: 0;
-    padding-right: 4%; }
-  .team > div:last-of-type {
-    padding-left: 4%;
-    padding-right: 0; }
+  @media screen and (min-width: 768px) {
+    .team > div:first-of-type {
+      padding-left: 0;
+      padding-right: 4%; }
+    .team > div:last-of-type {
+      padding-left: 4%;
+      padding-right: 0; } }
   .team > h3, .team h4 {
     text-align: left; }
-  @media screen and (min-width: 768px) {
+  .team__member {
+    margin: 0 0 10px 0; }
     .team__member figcaption {
-      margin-top: 20px; } }
+      display: inline-block;
+      vertical-align: middle; }
+      @media screen and (min-width: 768px) {
+        .team__member figcaption {
+          margin-top: 20px; } }
+  .team__member-img.img {
+    display: block; }
   .team__member-img img {
-    width: 100%;
+    width: 100px;
     border-radius: 50%; }
+    @media screen and (min-width: 768px) {
+      .team__member-img img {
+        width: 100%; } }
   .team__meta {
     list-style: none;
     margin: 0;
@@ -814,7 +826,7 @@ iframe {
     .team__meta > li {
       display: inline-block; }
       .team__meta > li a img {
-        max-width: 24px; }
+        max-width: 18px; }
 
 .sponsor {
   position: relative; }
