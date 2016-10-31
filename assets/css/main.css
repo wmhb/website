@@ -808,6 +808,11 @@ iframe {
     width: 100%;
     border-radius: 50%; }
 
+.sponsor {
+  position: relative; }
+  .sponsor__item {
+    max-width: 180px; }
+
 .archive__recent {
   margin-bottom: 3rem; }
 

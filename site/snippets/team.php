@@ -5,7 +5,7 @@
         </h1>
         <article class="gi gi--full gi gi--sm-3of4">
             <div class="team g">
-            <?php foreach($data->teammembers()->toStructure() as $teammember): ?>
+            <?php foreach($data->teammembers()->toStructure()->shuffle() as $teammember): ?>
                 <div class="team__member gi gi--sm-full gi--md-1of4" itemscope itemtype="http://schema.org/Event">
                     <figure class="team__member-img " itemprop="image">
                         <?php echo thumb($data->image($teammember->img()), array('width' => 300) ); ?>
@@ -16,29 +16,29 @@
                     <ul class="talk__meta">
                         <?php if ( $teammember->twitter()->isNotEmpty() ) : ?>
                         <li itemprop="sameAs">
-                            <?php echo twitter($talk->twitter()); ?>
+                            <?php echo twitter($teammember->twitter()); ?>
                         </li>
                         <?php endif; ?>
 
-                        <?php if ( $talk->xing()->isNotEmpty() ) : ?>
+                        <?php if ( $teammember->xing()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $talk->xing(); ?>">
+                            <a itemprop="sameAs" href="<?php echo $teammember->xing(); ?>">
                                 Xing
                             </a>
                         </li>
                         <?php endif; ?>
 
-                        <?php if ( $talk->linkedin()->isNotEmpty() ) : ?>
+                        <?php if ( $teammember->linkedin()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $talk->linkedin(); ?>">
+                            <a itemprop="sameAs" href="<?php echo $teammember->linkedin(); ?>">
                                 LinkedIn
                             </a>
                         </li>
                         <?php endif; ?>
 
-                        <?php if ( $talk->homepage()->isNotEmpty() ) : ?>
+                        <?php if ( $teammember->homepage()->isNotEmpty() ) : ?>
                         <li>
-                            <a itemprop="sameAs" href="<?php echo $talk->homepage(); ?>">
+                            <a itemprop="sameAs" href="<?php echo $teammember->homepage(); ?>">
                                 Webseite
                             </a>
                         </li>

@@ -14,7 +14,7 @@ fields:
     entry: >
       <div class="media" style="margin: 10px; overflow: hidden;">
         <div  style="width: 50px; float: left; margin-right: 10px;" class="img">
-            <img class="display: block;" src="/content/team/{{img}}">
+            <img class="display: block;" src="/content/4-team/{{img}}">
         </div>
         <div class="bd" class="overflow: hidden; zoom: 1;">
             <strong>{{name}}</strong><br/>

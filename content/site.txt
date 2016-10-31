@@ -19,3 +19,13 @@ Copyright:
 ----
 
 Sitebgimage: 14737403013_b50a638463_k.jpg
+
+----
+
+Sponsors: 
+
+- 
+  name: Bremen Digital Media
+  desc: 'bremen digitalmedia ist der Interessenverband für Medien- und Informationstechnologie-Unternehmen des Landes Bremen. Seit 1997 stärken wir die Unternehmen am Standort, vertreten ihre Interessen, vernetzen, kooperieren und fördern!'
+  img: b-dm_logo_rbg.svg
+  homepage: http://www.bremen-digitalmedia.de/
