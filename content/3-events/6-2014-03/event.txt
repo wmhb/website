@@ -37,3 +37,74 @@ Sponsors: bremen digitalmedia
 ----
 
 Tags: drupal,typography
+
+----
+
+Customheader: 
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Jens Neumann
+  title: 'Wunderkinder und Justin Bieber: Videotechnologie made in Bremen'
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Holger Thoese
+  title: Continuous Dingsda
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Jan Vogel
+  title: Vom Projekt zum Produkt
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

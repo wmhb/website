@@ -35,3 +35,74 @@ Sponsors: bremen digitalmedia
 ----
 
 Tags: usability,js,ecommerce
+
+----
+
+Customheader: 
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Marcel Böttcher
+  title: Rapid Usability Testing
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: uiux
+  xing: ""
+  linkedin: ""
+  homepage: http://www.uiux.de
+- 
+  speaker: Malte Legenhausen
+  title: Angular JS
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://www.werk85.de
+- 
+  speaker: Sohrab Mohammad
+  title: Reishunger.de
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://www.reishunger.de
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

@@ -1,4 +1,4 @@
-Title: Veranstaltungen:
+Title: Veranstaltungen
 
 ----
 
@@ -10,4 +10,4 @@ Title1: Beim nächsten Mal
 
 ----
 
-Title2: Bisher
+Title2: Ermöglichst durch

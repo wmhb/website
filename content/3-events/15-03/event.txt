@@ -1,0 +1,114 @@
+Title: Webmontag III/2016
+
+----
+
+Customheader: 
+
+----
+
+Date: 2016-09-05
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die Speckflagge im Pixel-Art-Stil ein.
+
+Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.
+
+Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Steffen Rühlmann
+  title: >
+    Drupal 8 am Beispiel der Distribution
+    Thunder
+  desc: >
+    Steffen erzählt über ein Projekt, aber
+    auch von der Drupal Community und das
+    Arbeiten mit dem Drupal CMS.
+  slides: ""
+  img: steffen_ruehlmann.jpg
+  twitter: _SteffenR
+  xing: ""
+  linkedin: ""
+  homepage: http://undpaul.de
+- 
+  speaker: 'Dennis Reimann & Jan Persiel'
+  title: Design, Development und dazwischen
+  desc: >
+    Gemeinsam besser, schneller und
+    nachhaltiger Sites, Apps und Shops
+    bauen.
+  slides: ""
+  img: uiengineering.png
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: https://www.uiengineering.de/
+- 
+  speaker: Kim Garrels
+  title: Uberspace
+  desc: >
+    Kim ist im Kunden-Support von Uberspace
+    tätig. Er stellt den Hoster Uberspace
+    vor, was Ihn ausmacht und erzählen aus
+    dem täglichen Umgang mit Kunden.
+  slides: ""
+  img: uberspace.jpg
+  twitter: uberspace
+  xing: ""
+  linkedin: ""
+  homepage: http://uberspace.de
+
+----
+
+Facebook: https://www.facebook.com/events/1067799203256108/
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: https://twitter.com/Looki82/status/772906817630461952
+
+----
+
+Featured-media2: https://twitter.com/BastDie/status/772876175735721984
+
+----
+
+Featured-media3: https://twitter.com/dennisausbremen/status/772846178291576832
+
+----
+
+Featured-media4: https://twitter.com/niklasbarning/status/772842317698961408
+
+----
+
+Featured-media5: 

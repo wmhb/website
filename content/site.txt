@@ -14,7 +14,7 @@ Keywords: webmontag,web,montag,bremen,bier,vorträge
 
 ----
 
-Copyright: 
+Copyright: (link: /impressum text: Impressum) | Made by (link: http://flore.nz text: Florenz), (link: http://braveandhungry.com text: Andreas) und (link: http://7meter17.de text: Kevin) | Made with (link: http://getkirby.com/made-with-kirby-and-love text: Kirby) and ♥
 
 ----
 

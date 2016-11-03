@@ -12,6 +12,10 @@ h6,.zeta{
     -webkit-font-smoothing: antialiased;
     hyphens: auto;
     margin: 1em auto;
+
+    main & {
+        line-height: 1.2;
+    }
 }
 
 

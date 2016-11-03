@@ -75,6 +75,12 @@ body {
     margin: 0 auto;
 }
 
+main {
+    > section {
+        margin-bottom: 3rem;
+    }
+}
+
 .row .row{
     margin-left: 0;
     margin-right: 0;

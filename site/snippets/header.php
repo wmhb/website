@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+    <title><?php echo $page->title()->html() ?> | <?php echo $site->title()->html() ?></title>
 
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
@@ -33,7 +33,11 @@
 
     <nav class="navigation-wrapper" role="navigation">
         <div class="g navigation">
-            <a href="/" class="layout__logo"><?php echo $site->title()->html() ?></a>
+            <a href="/" class="layout__logo">
+                <h1>
+                    <?php echo $site->title()->html() ?>
+                </h1>
+            </a>
             <a href="mailto:moin@webmontag-bremen.de?subject=Meine%20Webmontags-Vortrags-Idee&body=Moin," class="btn">Mitmachen!</a>
         </div>
     </nav>
@@ -47,14 +51,14 @@
             $nextMonday = $site->children()->find('events')->children()->flip()->visible()->first();
         ?>
 
-        <a href="#" title="some title" class="header__link">
+        <a href="#nextevent" title="Der nächste Webmontag" class="header__link">
             <h1><?php echo $nextMonday->title(); ?> </h1>
             <h2><?php echo $nextMonday->date('d.m.Y'); ?> </h2>
         </a>
     </header>
-    <?php else : ?>
+    <?php elseif ($page->template() == 'event')  : ?>
     <header class="layout__header layout__header--small" role="banner"
-        <?php if ($bgImage = $page->image($site->customheader())): ?>
+        <?php if ($bgImage = $page->image($page->customheader())): ?>
         style="background: url(<?php echo $bgImage->url() ?>) center center/ cover no-repeat; "
         <?php endif; ?>
     >

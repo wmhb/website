@@ -2,7 +2,6 @@
         <section class="g">
             <div class="gi gi--full"> 
                 <?php echo $site->copyright()->kirbytext() ?>
-                <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
             </div>
         </section>
     </footer>

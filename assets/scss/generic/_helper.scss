@@ -35,10 +35,11 @@
             font-weight: italic;
         }
     }
-    @media screen and (min-width: $screen-xs-min) {
+
+    @media screen and (min-width: $screen-sm-min) {
         .img{
             display: inline-block;
-            width: 40%;
+            // width: 40%;
         }
     }
 

@@ -1,4 +1,5 @@
 .archive{
+    position: relative;
     &__recent{
         margin-bottom: 3rem;
     }
@@ -22,5 +23,16 @@
     }
     &__quicktitle {
         font-weight: 700;
+    }
+
+
+    &__list {
+        list-style-type: none;
+        margin: 3rem 0;
+        padding: 0;
+
+        .archive__quicktalks {
+            margin: 1rem 0 2rem 1rem;
+        }
     }
 }

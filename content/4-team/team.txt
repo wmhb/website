@@ -7,7 +7,7 @@ Teammembers:
 - 
   speaker: Kevin Heil
   desc: Organisation, Moderation
-  img: 09fd3e369768392ae8b15ed8d4587267.jpg
+  img: kevin_maestro.jpg
   twitter: stockimarsch
   xing: ""
   linkedin: ""
@@ -26,7 +26,7 @@ Teammembers:
 - 
   name: Andreas Dantz
   desc: Organisation, Grafik
-  img: img_0086.jpg
+  img: dantz3.png
   twitter: ""
   xing: ""
   linkedin: ""

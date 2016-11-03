@@ -1,11 +1,19 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+  <main class="main g" role="main">
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
+    <section class="gi-full">
+        <article class="pane g">
+            <h3 class="gi gi--full gi gi--sm-1of4 pane__title">
+                <?php echo $page->title() ?>
+            </h3>
+            <div class="gi gi--full gi gi--sm-3of4">
+                <div class="about__text">
+                    <?php echo kirbytext($page->text()) ?>
+                </div>
+            </div>
+        </article>
+    </section>
 
   </main>
 

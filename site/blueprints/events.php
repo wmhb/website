@@ -3,6 +3,9 @@
 title: Events (Snippet)
 pages: event
 fields:
+  title:
+    label: Headline (Startseite) 
+    type:  text
   title1:
     label: Title 1 
     type:  text

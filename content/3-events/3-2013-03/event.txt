@@ -37,3 +37,76 @@ Sponsors: bremen digitalmedia
 ----
 
 Tags: 
+
+----
+
+Customheader: 
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: 'Kevin Heil & Florenz Heldermann'
+  title: Pattern Lab und Atomic Design
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Steve Liedtke
+  title: Google App Engine
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Jan Theysen
+  title: >
+    Die erste erfolgreiche Kickstarter
+    Kampagne aus Bremen
+  desc: ""
+  slides: ""
+  img: ""
+  twitter: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 
