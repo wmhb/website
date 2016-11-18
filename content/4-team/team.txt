@@ -2,30 +2,29 @@ Title: Team
 
 ----
 
-Teammembers:
+Teammembers: 
 
--
+- 
   speaker: Kevin Heil
   desc: Organisation, Moderation
   img: kevin.jpg
   twitter: stockimarsch
-  xing: >
-    https://www.xing.com/profile/Kevin_Heil
+  xing: https://www.xing.com/profile/Kevin_Heil
   linkedin: >
     https://www.linkedin.com/in/kevin-heil-1160b210a
   homepage: http://7meter17.de
   name: Kevin Heil
--
+- 
   name: Florenz Heldermann
   desc: Organisation
-  img: 1avlbf0v.jpg
+  img: foto-am-03.11.16-um-13.00-2.jpg
   twitter: track02
   xing: >
     https://www.xing.com/profile/Florenz_Heldermann
   linkedin: >
     https://www.linkedin.com/in/florenzheldermann
   homepage: http://flore.nz
--
+- 
   name: Andreas Dantz
   desc: Organisation, Grafik
   img: dantz3.png
@@ -33,7 +32,7 @@ Teammembers:
   xing: ""
   linkedin: ""
   homepage: http://braveandhungry.com
--
+- 
   name: Dennis Gieseler
   desc: Organisation
   img: 963hdpng.png
