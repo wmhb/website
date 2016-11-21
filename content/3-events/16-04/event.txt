@@ -41,16 +41,6 @@ Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/dat
 Talks: 
 
 - 
-  speaker: 'Lennard Kläfker & Daniel Wu'
-  title: 'Was, wie und warum - Die Gambio Shopsoftware'
-  desc: 'In unserem Beitrag wollen wir zunächst kurz die Geschichte unserer Software beleuchten, die wir seit mittlerweile über 10 Jahren weiterentwickeln. Anschließend geht es um die technischen Grundlagen: Auf welcher Technik basiert der Shop? Was sind aktuelle Entwicklungsprojekte? Zuletzt werfen wir in einer kurzen Fallstudie noch einen Blick darauf, für wen wir das eigentlich machen.'
-  slides: ""
-  img: gambio.png
-  twitter: gambio
-  xing: ""
-  linkedin: ""
-  homepage: http://gambio.de
-- 
   speaker: Dennis Reimann
   title: Elm
   desc: |
@@ -62,6 +52,16 @@ Talks:
   xing: ""
   linkedin: ""
   homepage: http://dennisreimann.de
+- 
+  speaker: 'Lennard Kläfker & Daniel Wu'
+  title: 'Was, wie und warum - Die Gambio Shopsoftware'
+  desc: 'In unserem Beitrag wollen wir zunächst kurz die Geschichte unserer Software beleuchten, die wir seit mittlerweile über 10 Jahren weiterentwickeln. Anschließend geht es um die technischen Grundlagen: Auf welcher Technik basiert der Shop? Was sind aktuelle Entwicklungsprojekte? Zuletzt werfen wir in einer kurzen Fallstudie noch einen Blick darauf, für wen wir das eigentlich machen.'
+  slides: ""
+  img: gambio.png
+  twitter: gambio
+  xing: ""
+  linkedin: ""
+  homepage: http://gambio.de
 - 
   speaker: Kevin Heil
   title: 'Lass das und mach das - Erfahrungswerte nach einem Jahr Firmengründung'

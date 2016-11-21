@@ -10,9 +10,12 @@ fields:
     label: Author Image
     type:  image
     width: 1/2
-  author:
+  globalheaderimage:
     label: Author
     type:  text
+  contactmail:
+    label: Globabale E-Mail Adresse
+    type: email
   description:
     label: Description
     type:  textarea

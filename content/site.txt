@@ -33,3 +33,7 @@ Sponsors:
 ----
 
 Placeholderspeaker: speaker-placeholder.png
+
+----
+
+Contactmail: hi@flore.nz
