@@ -5,7 +5,7 @@
     <article class="gi--full gi--center event" itemscope itemtype="http://schema.org/Event">
         <h2 class="event__title" itemprop="name"><?php echo $page->title()->html() ?> - <?php echo $page->date('d.m.Y'); ?> - <?php echo $page->time1()->html() ?></h2>
         <div class="g">
-            <div class="gi gi--1of2">
+            <div class="gi gi--full gi--sm-1of2 ">
                 <ul class="event__meta">
                     <li itemprop="startDate" content="<?php echo $page->date('Y-m-d'); ?>">
                         <strong>Wann: </strong><?php echo $page->date('d.m.Y'); ?>
@@ -43,7 +43,7 @@
                     <?php endif; ?>
                 </div>
             </div>
-            <div class="gi gi--1of2">
+            <div class="gi gi--full gi--sm-1of2">
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
                 <div class="talk" itemprop="subEvent">
 
