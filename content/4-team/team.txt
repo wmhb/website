@@ -17,7 +17,7 @@ Teammembers:
 - 
   name: Florenz Heldermann
   desc: Organisation
-  img: foto-am-03.11.16-um-13.00-2.jpg
+  img: florenz_1.jpg
   twitter: track02
   xing: >
     https://www.xing.com/profile/Florenz_Heldermann
@@ -28,7 +28,7 @@ Teammembers:
   name: Andreas Dantz
   desc: Organisation, Grafik
   img: dantz3.png
-  twitter: ""
+  twitter: dantz
   xing: ""
   linkedin: ""
   homepage: http://braveandhungry.com
