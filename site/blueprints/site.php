@@ -2,6 +2,11 @@
 
 title: Site
 pages: true
+files:
+  fields:
+    focus:
+      label: Set Focalpoint for headerimages
+      type: focus
 fields:
   title:
     label: Title
