@@ -2,11 +2,7 @@ Title: Webmontag Bremen
 
 ----
 
-Author: Webmontag Bremen Web-Team
-
-----
-
-Description: Beim Webmontag Bremen treffen sich die lokalen Webschaffenden um Vorträgen zu lauschen, sich zu treffen und gemeinsam Getränke zu vernichten. Was beim nächsten Mal passiert, wird dich umhauen.
+Description: Beim Webmontag Bremen treffen sich die Bremer Webschaffenden um Vorträgen zu lauschen, zu netzwerken und sich zu auszutauschen. Die Vorträge richten sich an Entwickler, Designer, Agenturschaffende, Gründer und allen anderen Menschen die sich für Themen aus der Welt des globalen und regionalen Webs und allen drumherum interessieren.
 
 ----
 
@@ -14,11 +10,11 @@ Keywords: webmontag,web,montag,bremen,bier,vorträge
 
 ----
 
-Copyright: (link: /impressum text: Impressum) | Made by (link: http://flore.nz text: Florenz), (link: http://braveandhungry.com text: Andreas) und (link: http://7meter17.de text: Kevin) | Made with (link: http://getkirby.com/made-with-kirby-and-love text: Kirby) and ♥
+Copyright: (link: /impressum text: Impressum) | Made by (link: http://flore.nz text: Florenz), (link: http://braveandhungry.com text: Andreas) und (link: http://7meter17.de text: Kevin) | Hosted on (link: http://uberspace.de text: Uberspace) | Made with (link: http://getkirby.com/made-with-kirby-and-love text: Kirby) and ♥
 
 ----
 
-Sitebgimage: 14737403013_b50a638463_k.jpg
+Sitebgimage: 15168860_902762586527709_7021233287804962125_o.jpg
 
 ----
 
@@ -37,3 +33,15 @@ Placeholderspeaker: speaker-placeholder.png
 ----
 
 Contactmail: hi@flore.nz
+
+----
+
+Globalheaderimage: 
+
+----
+
+Placeholderspeakerstext: Die Sprecher werden demnächst bekannt gegeben
+
+----
+
+Placeholderspeakerdesctext: tba

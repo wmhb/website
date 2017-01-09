@@ -751,6 +751,15 @@ iframe {
     .pane {
       padding-top: 5rem; } }
 
+.well {
+  position: relative;
+  font-size: 12px;
+  font-size: 1.2rem;
+  background: #e6e6e6;
+  padding: .7rem 1rem;
+  border-radius: 3px;
+  width: 100%; }
+
 .event {
   position: relative;
   padding-top: 3rem; }

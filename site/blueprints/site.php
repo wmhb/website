@@ -2,6 +2,11 @@
 
 title: Site
 pages: true
+files:
+  fields:
+    focus:
+      label: Set Focalpoint for headerimages
+      type: focus
 fields:
   title:
     label: Title
@@ -48,6 +53,12 @@ fields:
   placeholderspeaker:
     label: Platzhalterbild für fehlende Portraitaufnahmen
     type:  image
+  placeholderSpeakersText:
+    label: Platzhaltertext für fehlende Sprecherliste
+    type:  textarea
+  placeholderSpeakerDescText:
+    label: Platzhaltertext für fehlende Themenbeschreibung
+    type:  text
   keywords:
     label: Keywords
     type:  tags
