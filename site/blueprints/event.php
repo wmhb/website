@@ -5,6 +5,10 @@ pages: false
 template: event
 files:
   sortable: true
+  fields:
+    focus:
+      label: Set Focalpoint for headerimages
+      type: focus
 fields:
   title:
     label: Title
