@@ -1,0 +1,111 @@
+Title: Webmontag IV/2016
+
+----
+
+Customheader: 14884471_886823231454978_4038396415741974184_o.jpg
+
+----
+
+Date: 2016-11-21
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die Speckflagge im Pixel-Art-Stil ein.
+
+Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.
+
+Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.
+
+Das Karton steht ab 18:30 Uhr für euch offen und die Vorträge beginnen um 19 Uhr.
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: 'Lennard Kläfker & Daniel Wu'
+  title: 'Was, wie und warum - Die Gambio Shopsoftware'
+  desc: 'In unserem Beitrag wollen wir zunächst kurz die Geschichte unserer Software beleuchten, die wir seit mittlerweile über 10 Jahren weiterentwickeln. Anschließend geht es um die technischen Grundlagen: Auf welcher Technik basiert der Shop? Was sind aktuelle Entwicklungsprojekte? Zuletzt werfen wir in einer kurzen Fallstudie noch einen Blick darauf, für wen wir das eigentlich machen.'
+  slides: ""
+  img: gambio.png
+  twitter: gambio
+  xing: ""
+  linkedin: ""
+  homepage: http://gambio.de
+- 
+  speaker: Dennis Reimann
+  title: Elm
+  desc: |
+    Dennis Reimann berichtet von den Vorzügen der Entwicklung von dynamischen Frontend-Anwendungen mit Elm.
+    Elm ist eine funktionale Programmiersprache, die zu JavaScript kompiliert. Eine Besonderheit ist dabei die statische Typisierung, welche es in JavaScript nicht gibt und die in Elm über den Compiler realisiert ist. So erzeugt der Compiler verlässlichen Code, in dem keine Laufzeit-Exceptions vorkommen können. Die statische Typisierung zieht sich dabei durch bis in die View: Das Template, welches in elm-html geschrieben wird, setzt wie React auch auf dem Konzept des Virtual DOM auf.
+  slides: https://dennisreimann.de/talks/elm.html
+  img: dennis_reimann.jpg
+  twitter: dennisreimann
+  xing: ""
+  linkedin: ""
+  homepage: http://dennisreimann.de
+- 
+  speaker: Kevin Heil
+  title: 'Lass das und mach das - Erfahrungswerte nach einem Jahr Firmengründung'
+  desc: |
+    Als Kevin stellt man sich das ganz einfach vor. Man tut sich zusammen, geht irgendwohin, unterschreibt irgendetwas und schon hat man eine Firma.
+    
+    Im Rückblick stimmt das sogar - irgendwie. Aber will man eine UG, eine GmbH, oder gar eine GbR sein? Was machen eigentlich Steuerberater und Notare so? Warum bezahlt man Menschen vierstellige Beträge, damit sie etwas gegenlesen und was zur Hölle ist eine Cash-Burn-Rate und warum muss das auf Englisch sein?
+    
+    7METER17 macht die Pforten auf, lässt euch an den Erfahrungen des letzten Jahres teilhaben und den Lehren die daraus gezogen wurden, damit ihr so manches Fettnäpfchen vermeiden könnt. Oder damit ihr einfach gemeinsam mit uns darüber lacht wie wir uns angestellt haben.
+  slides: ""
+  img: kevin-heil-foto.256x256.jpg
+  twitter: stockimarsch
+  xing: ""
+  linkedin: ""
+  homepage: http://7meter17.de
+
+----
+
+Facebook: https://www.facebook.com/events/329835620728870/
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: https://twitter.com/track02/status/800769378790805504
+
+----
+
+Featured-media2: https://twitter.com/HBdigitalmedia/status/800764059629088768
+
+----
+
+Featured-media3: https://twitter.com/dennisausbremen/status/800777415500976128
+
+----
+
+Featured-media4: https://twitter.com/Looki82/status/800794348522717185
+
+----
+
+Featured-media5: https://twitter.com/dennisreimann/status/800798549185269760

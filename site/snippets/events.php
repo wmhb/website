@@ -13,16 +13,20 @@
                     </a>
                     <p>
                         <?php echo kirbytext($project->text()->excerpt(200)) ?>
+                        <?php if ($project->talks()->isNotEmpty()) : ?>
                         <ul class="archive__quicktalks">
                             <?php foreach($project->talks()->toStructure() as $talk): ?>
                             <li>
                                 <strong class="archive__quicktitle"><?php echo $talk->title() ?></strong> 
-                                <em>
+                                <small>
                                     <?php echo $talk->speaker() ?>
-                                </em>
+                                </small>
                             </li>
                             <?php endforeach ?>
                         </ul>
+                        <?php else : ?>
+                            <em>Die Sprecher werden demnächst bekannt gegeben.</em>
+                        <?php endif; ?>
                         <p>
                             <a class="btn" href="<?php echo $project->url() ?>">Weiterlesen</a>
                             <a class="btn" href="<?php echo $site->find('event-archiv')->url() ?>">Zum Webmontag Archiv</a>

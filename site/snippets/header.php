@@ -43,10 +43,16 @@
     </nav>
     <?php if ($page->template() == 'home')  : ?>
     <header class="layout__header" role="banner"
-        <?php if ($bgImage = $site->image($site->siteBgImage())): ?>
-        style="background: url(<?php echo $bgImage->url() ?>) center center/ cover no-repeat; "
+
+        <?php if ($homeImage = $site->image($site->siteBgImage())): ?>
+
+        <?php 
+            $cropHomeImage = $homeImage->focusCrop(1280,600);
+        ?>
+        style="background: url(<?php echo $cropHomeImage->url() ?>) center top/ cover no-repeat; "
         <?php endif; ?>
     >
+
         <?php
             $nextMonday = $site->children()->find('events')->children()->flip()->visible()->first();
         ?>
@@ -58,9 +64,25 @@
     </header>
     <?php elseif ($page->template() == 'event')  : ?>
     <header class="layout__header layout__header--small" role="banner"
-        <?php if ($bgImage = $page->image($page->customheader())): ?>
-        style="background: url(<?php echo $bgImage->url() ?>) center center/ cover no-repeat; "
+        <?php if ( $eventImage = $page->image( $page->customheader() )): ?>
+
+            <?php 
+                $cropEventImage = $eventImage->focusCrop(1200,400);
+            ?>
+            style="background: url(<?php echo $cropEventImage->url() ?>) center top/ cover no-repeat; "
+
+        <?php else : ?>
+
+            <?php if ($bgImage = $site->image($site->siteBgImage())): ?>
+            <?php 
+                $cropImage = $site->image( $site->siteBgImage() )->focusCrop(1280,400);
+            ?>
+            style="background: url(<?php echo $cropImage->url() ?>) center top/ cover no-repeat; "
+            <?php endif; ?>
+
         <?php endif; ?>
     >
     </header>
     <?php endif ?>
+
+

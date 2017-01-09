@@ -44,6 +44,7 @@
                 </div>
             </div>
             <div class="gi gi--full gi--sm-1of2">
+                <?php if ($page->talks()->isNotEmpty()) : ?>
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
                 <div class="talk" itemprop="subEvent">
 
@@ -71,7 +72,11 @@
 
                         <?php if ( $talk->desc()->isNotEmpty() ) : ?>
                         <p class="talk__description" itemprop="description">
+                            <?php if($talk->desc()->notEmpty()) : ?>
                             <?php echo $talk->desc()->kirbytext(); ?>
+                            <?php else: ?>
+                            <?php echo $site->placeholderSpeakerDescText(); ?>
+                            <?php endif; ?>
                         </p>
                         <?php endif; ?>
 
@@ -117,6 +122,9 @@
                     </div>
                 </div>
                 <?php endforeach ?>
+                <?php else : ?>
+                    <span class="well"><?php echo $site->placeholderSpeakersText() ?></span>
+                <?php endif; ?>
             </div>
             <?php if ( $page->featured_media1()->isNotEmpty() ) : ?>
             <div class="gi gi--full">
