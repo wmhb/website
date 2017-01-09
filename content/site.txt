@@ -37,3 +37,11 @@ Contactmail: hi@flore.nz
 ----
 
 Globalheaderimage: 
+
+----
+
+Placeholderspeakerstext: Die Sprecher werden demnächst bekannt gegeben
+
+----
+
+Placeholderspeakerdesctext: tba

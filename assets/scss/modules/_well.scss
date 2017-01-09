@@ -1,0 +1,8 @@
+.well {
+    position:relative;
+    @include font-size(1.2);
+    background: $lightergrey;
+    padding: .7rem 1rem;
+    border-radius: 3px;
+    width: 100%;
+}
