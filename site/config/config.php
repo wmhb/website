@@ -28,5 +28,4 @@ make Kirby work. For more fine-grained configuration
 of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
-c::set('debug',true);
-/* c::set('thumbs.driver','im'); */
+c::set('debug',false);
