@@ -768,7 +768,7 @@ iframe {
   @media screen and (min-width: 768px) {
     .event__title {
       position: absolute;
-      top: -114px;
+      top: -108px;
       color: white;
       background: rgba(0, 0, 0, 0.6);
       padding: 2rem 0;
