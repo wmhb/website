@@ -66,8 +66,14 @@ fields:
       img:
         label: Beispielbild / Sprecherbild / Whatever
         type: image
+      img2:
+        label: Nochmal Beispielbild / Sprecherbild / Whatever
+        type: image
       twitter:
         label: Twitter Name
+        type: text
+      twitter2:
+        label: Twitter Name (falls zweiter erforderlich)
         type: text
       xing:
         label: xing URL

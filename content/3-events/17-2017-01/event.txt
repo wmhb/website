@@ -40,6 +40,21 @@ Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/dat
 
 Talks: 
 
+- 
+  speaker: test
+  title: test
+  desc: test
+  slides: ""
+  img: >
+    15069159_902762509861050_4347952947567124088_o.jpg
+  img2: >
+    15111029_902762656527702_3049837196097195274_o.jpg
+  twitter: twitter1
+  twitter2: twitter2
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
 ----
 
 Facebook: https://www.facebook.com/events/885419884934420/

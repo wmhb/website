@@ -7,10 +7,11 @@
     @media screen and (min-width: $screen-sm-min) {
         &__title {
             position: absolute;
-            top: -114px;
+            top: -104px;
             color: white;
             background: rgba(0,0,0, .6);
-            padding: 2rem 0;
+            padding: 17px 0;
+            max-height: 70px;
             margin-left: -2998rem;
             margin-right: -3000rem;
             padding-left: 3000rem;

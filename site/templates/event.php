@@ -48,15 +48,23 @@
                 <?php foreach($page->talks()->toStructure() as $talk): ?>
                 <div class="talk" itemprop="subEvent">
 
-                    <?php if ( $talk->img()->isNotEmpty() ) : ?>
-                    <figure class="talk__img" itemprop="image">
-                        <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
-                    </figure>
-                    <?php else : ?>
-                    <figure class="talk__img" itemprop="image">
-                        <img src="/content/<?php echo $site->placeholderspeaker(); ?>" alt="">
-                    </figure>
-                    <?php endif; ?>
+                    <div class="talk__img">
+                        <?php if ( $talk->img()->isNotEmpty() ) : ?>
+                        <figure itemprop="image">
+                            <?php echo thumb($page->image($talk->img()), array('width' => 100) ); ?>
+                        </figure>
+                        <?php else : ?>
+                        <figure itemprop="image">
+                            <img src="/content/<?php echo $site->placeholderspeaker(); ?>" alt="">
+                        </figure>
+                        <?php endif; ?>
+
+                        <?php if ( $talk->img2()->isNotEmpty() ) : ?>
+                        <figure itemprop="image">
+                            <?php echo thumb($page->image($talk->img2()), array('width' => 100) ); ?>
+                        </figure>
+                        <?php endif; ?>
+                    </div>
 
                     <div class="talk__info">
                         <p class="talk__speaker">
@@ -84,6 +92,12 @@
                             <?php if ( $talk->twitter()->isNotEmpty() ) : ?>
                             <li itemprop="sameAs">
                                 <?php echo twitter($talk->twitter()); ?>
+                            </li>
+                            <?php endif; ?>
+
+                            <?php if ( $talk->twitter2()->isNotEmpty() ) : ?>
+                            <li itemprop="sameAs">
+                                <?php echo twitter($talk->twitter2()); ?>
                             </li>
                             <?php endif; ?>
 
