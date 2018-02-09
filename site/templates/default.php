@@ -8,9 +8,7 @@
                 <?php echo $page->title() ?>
             </h3>
             <div class="gi gi--full gi gi--sm-3of4">
-                <div class="about__text">
-                    <?php echo kirbytext($page->text()) ?>
-                </div>
+                <?php echo kirbytext($page->text()) ?>
             </div>
         </article>
     </section>
