@@ -1,0 +1,45 @@
+Title: Mitmachen
+
+----
+
+Text: 
+
+### Über was kann ich auf dem Webmontag reden?
+Generell über alles was grob mit dem Thema Web zu tun hat. Und dass ist auch die einzige Einschränkung. 
+Beispiele:
+* *Du oder deine Agentur / Freunde / Startup hast etwas gebaut, was die Welt sehen sollte? Zeig es!*
+* Du hast eine Technologie / Thema für dich entdeckt, über die du gerne referieren würdest? Klingt super, erzähl mehr!
+* Du bist Künstler und hast etwas Großartiges erschaffen? Wir sind gespannt. 
+* Du willst die Welt / das Web / den Alltag mit einer Idee verbessern? Der Webmontag kann ein guter Startpunkt dafür sein. 
+* Oder oder oder... 
+
+Solange es in den Kontext eines Webmontags passt, ist jedes Thema willkommen! Sei es nun Entwicklung, Gestaltung oder alles rund herum. Schreib uns einfach an!
+
+### Wie kann ich euch kontaktieren?
+Du hast eine interessante Idee für einen Webmontag Talk? Gerne! Schreib uns einfach auf einen der folgenden Wege an:
+* Schreib Florenz eine (email: hi@flore.nz text: E-Mail).
+* Schreib einen Tweet oder DM an (link: http://twitter.com/webmontag_hb text: @webmontag_hb)
+* ... oder direkt an (link: http://twitter.com/track02 text: Florenz), (link: http://twitter.com/stockimarsch text: Kevin), (link: http://twitter.com/dennisausbremen text: Dennis) oder (link: http://twitter.com/dantz text: Andreas)
+* Spreche uns einfach auf dem nächsten Webmontag an
+
+### Was braucht ihr von mir?
+Sofern wir denken dass dein Thema passt benötigen wir folgende Punkte von dir:
+* Einen Talktitel
+* Eine kurze Beschreibung worum es geht. 
+* Optional: Ein Foto von dir
+* Optional: URL zu deiner Webseite, Xing, LinkedIn, Twitter, etc
+* Optional: URL zu deinen Slides
+
+### Wie sieht es mit der Technik aus?
+* Die Location Karton stellt einen Beamer mit HDMI Ausgang. 
+* Solltest du Folien und Slides haben nutzt du idealerweise deinen eigenen Laptop. Sollte dies nicht klappen können wir gerne eins unserer Geräte stellen, würden dich aber bitten dieses vorher anzumelden und ein portables Format wie PDF zu wählen. 
+* Für Macbooks haben wir meistens alle gängigen Adapter vor Ort, allerdings nicht garantiert. Solltest du also einen Adapter (auf HDMI) benötigen und besitzt auch einen, bring ihn bitte mit. 
+* Audio- und Videoausgaben sind generell möglich, hier ist aber ein kurzer Test vorab sehr empfehlenswert. 
+* Du willst deinen eigenen Talk aufnehmen. Das kannst du gerne machen, solange du dich selber um diese Aufnahmen und Hardware kümmerst. Wir können hier leider keinen Support bieten. 
+
+### Wann geht es los?
+Der offizielle Einlass ist immer ab 18:30 Uhr, wir würden dich aber bitten bereits zwischen 18 - 18:15 Uhr zu kommen um einen kleinen Technikcheck durchzuführen. Das beinhaltet deinen Laptop am Beamer anschliessen und ggf.  Audio und Videoausgaben zu testen. Also alles was einen schnellen Einstieg in den Talk ermöglicht. 
+Ausserdem können wir dann auch die Reihenfolge der Talks mit allen Vortragenden besprechen. 
+
+## Gibt es eine Bezahlung? 
+Nein. Alle Vorträge auf dem Webmontag Bremen sind unentgeldlich. Aber für dich gibt es den ganzen Abend Freigetränke.
