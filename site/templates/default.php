@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="main g" role="main">
+  <main class="main g--col" role="main">
 
     <section class="gi-full">
         <article class="pane g">
