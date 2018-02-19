@@ -12,6 +12,13 @@ figure{
     margin: 0;
 }
 
+ul, 
+ol {
+    li {
+        margin-bottom: .5rem;
+    }
+}
+
 iframe{
     width: 100%;
     display: none;
