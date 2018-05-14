@@ -38,7 +38,7 @@
                     <?php echo $site->title()->html() ?>
                 </h1>
             </a>
-            <a href="mailto:<?php echo $site->contactmail() ?>?subject=Meine%20Webmontags-Vortrags-Idee&body=Moin," class="btn">Mitmachen!</a>
+            <a href="/mitmachen" class="btn">Mitmachen!</a>
         </div>
     </nav>
     <?php if ($page->template() == 'home')  : ?>
