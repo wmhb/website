@@ -1,0 +1,131 @@
+Title: Webmontag II/2018
+
+----
+
+Customheader: webp.net-resizeimage-1.jpg
+
+----
+
+Date: 2018-05-14
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Der zweite Webmontag 2018 findet dieses Jahr am 14.05.2018 statt. Wie immer freuen wir uns darauf euch ab 18:30 im Karton (Alte Schnapsfabrik) begrüßen zu können. Als Sprecher haben wird dieses Mal Frank Düsterbeck, Peter Buscokowski, sowie Dennis Reimann & Jan Persiel auf der Bühne.
+
+**Frank Düsterbeck** von der HEC erzählt über *agiles, selbstorganisiertes Arbeiten in Teams*. Hierbei geht er auf Chancen und Gefahren ein und erläutert mit Beispielen.** Dennis Reimann** ist jetzt zum dritten Mal beim Webmontag dabei und zeigt uns zusammen mit **Jan Persiel **seinen Workflow *für UI getriebene Webprojekte.* Und **Peter Buczkowski** entführt uns in die Welt der Elektroschocks und bringt drei interessante Experimente mit. 
+
+*Bitte beachtet dass die Reihenfolge der Vorträge erst am Webmontag Abend entschieden wird. *
+
+Ansonsten gibt es gemütliche Sofas, nette Menschen, gute Unterhaltungen und subventionierte Getränke. Wir freuen uns auf euer Kommen!
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: 'Dennis Reimann & Jan Persiel'
+  title: >
+    UI First! Innovative Anwendungen
+    effizient und nutzerzentriert entwickeln
+  desc: |
+    Noch vor ein paar Jahren wurde das Frontend in Webprojekten eher stiefmütterlich behandelt. Mittlerweile ist das User Interface durch nutzerzentriertes Design, Prototyping und A/B-Testing in den Vordergrund gerückt: Durch die unmittelbare Nähe zur Interaktion mit dem Kunden wurde die UI-Entwicklung zum Kernbestandteil für innovative Produktentwicklung.
+    
+    Daraus ergeben sich neue Herausforderungen, aber auch viele Möglichkeiten, die Produktentwicklung effizienter zu machen: Wie lässt sich sicherstellen, dass Design und Entwicklung eng zusammen arbeiten? Wie testet man Features möglichst früh, reagiert auf Veränderungen und sichert dabei dennoch eine hohe Qualität? Was bedeutet all das für den nachgelagerten Teil des Entwicklungsprozesses?
+    
+    Dieser Vortrag gibt Einblicke in Techniken der UI-getriebenen Entwicklung von Webprojekten. Er stellt die Vorteile, die damit verbundenen Möglichkeiten sowie das dazu benötigte Tooling vor.
+  slides: ""
+  img: dennis-reimann-13.jpg
+  img2: jan-persiel-13.jpg
+  twitter: @dennisreimann
+  twitter2: @janpersiel
+  xing: ""
+  linkedin: ""
+  homepage: https://www.uiengineering.de
+- 
+  speaker: Peter Buczkowski
+  title: >
+    Human Computer Interactions mit
+    Elektroschocks
+  desc: |
+    In meinem Talk soll es um drei Projekte gehen, die im Zuge meiner Master Thesis entstanden sind.
+    Bestandteil meiner Thesis sind eine Kamera, die einen zu schönen Fotos zwingt, ein Controller, der den Benutzer eine perfekte Runde Snake spielen lässt und ein Gerät, dass
+    Daten im Unterbewusstsein speichert.
+    Alle drei Projekte haben eines gemeinsam. Ihnen liegt ein TENS Gerät zu Grunde, dass Stromstöße aussendet um Muskelkontraktionen des Benutzers hervorzurufen.
+    Eine neue Art der Human Computer Interaktion entsteht, bei der das Interface nicht mehr klar definiert werden kann.
+    In meinem Talk möchte ich über den Entstehungsprozess, Herausforderungen und die Zukunft dieser Ideen sprechen.
+  slides: ""
+  img: peter-busc.jpg
+  img2: ""
+  twitter: psibu
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://peterbuczkowski.com
+- 
+  speaker: Frank Düsterbeck
+  title: >
+    Selbstorganisierte agile Teams –
+    zwischen Autonomie, Selbstbeschränkung
+    und Chaos
+  desc: |
+    „Die besten Architekturen, Anforderungen und Entwürfe entstehen durch selbstorganisierte Teams“.
+    Dieses Prinzip aus dem Manifest für agile Softwareentwicklung basiert auf Erkenntnissen des menschlichen Zusammenwirkens, die uralt sind. Selbstorganisation eignet sich als Organisationsform hervorragend, um den Herausforderungen einer komplexen und dynamischen Umwelt gerecht zu werden. Durch Selbstorganisation entstehen aber auch Probleme. Probleme, die dazu führen können, dass Selbstorganisation ins Chaos führt und Menschen darunter leiden. Was Selbstorganisation bedeutet, welche Voraussetzungen gegeben sein müssen, welche neuen Herausforderungen entstehen und wie ein Team dorthin kommt, beleuchtet diese Session am konkreten Beispiel diverser Teams.
+  slides: ""
+  img: duesterbeck.png
+  img2: ""
+  twitter: fduesterbeck
+  twitter2: ""
+  xing: >
+    https://www.xing.com/profile/Frank_Duesterbeck/cv
+  linkedin: ""
+  homepage: http://hec.de
+
+----
+
+Facebook: https://www.facebook.com/events/175507633106139/
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

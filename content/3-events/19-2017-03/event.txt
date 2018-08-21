@@ -1,0 +1,124 @@
+Title: Webmontag III/2017
+
+----
+
+Customheader: 15111029_902762656527702_3049837196097195274_o-1200x400-49-32.jpg
+
+----
+
+Date: 2017-09-04
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die Speckflagge im Pixel-Art-Stil ein.
+
+Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.
+
+Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.
+
+Das Karton steht ab 18:30 Uhr für euch offen und die Vorträge beginnen um 19 Uhr.
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Lars Peterke
+  title: From JIRA to Hero
+  desc: >
+    Was passiert eigentlich, wenn man JIRA
+    durch eine Eigenentwicklung ablöst?
+    Lars stellt sein Tool "KABA" vor und
+    erzählt euch, wie man eine solche
+    Software im Unternehmen etabliert und ob
+    das rückblickend alles überhaupt eine
+    gute Idee war.
+  slides: ""
+  img: psq0nwf2_400x400.jpg
+  img2: ""
+  twitter: LarsPeterke
+  twitter2: ""
+  xing: >
+    https://www.xing.com/profile/Lars_Peterke
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: 'Alejandra Silva & Melanie Springer'
+  title: Hungrig auf Nutzer Feedback?
+  desc: |
+    Testessen ist sowohl für diejenigen, die gerne testen wollen als auch für Unternehmen, Agenturen, Freelancer, Start-ups, Entwickler, UXler oder einfach für solche, die gerne wissen möchten: Was denken die Nutzer, was fühlen und erwarten sie von meinen Ideen, Konzepten und Produkten?
+    &nbsp;
+    
+    Testessen ist ein Format, welches sich seit 2013 innerhalb von Deutschland und Österreich entwickelt. Das Motto lautet: Pizza, Bier und Usability Testing.
+  slides: ""
+  img: alejandra-silva-foto.256x256.jpg
+  img2: melanie-springer-foto.256x256.jpg
+  twitter: ""
+  twitter2: ""
+  xing: >
+    https://www.xing.com/profile/Alejandra_Silva6
+  linkedin: https://www.linkedin.com/in/dalexasilva/
+  homepage: http://www.usability-testessen.de/
+- 
+  speaker: Marcel Otten
+  title: 'Digitale Produktentwicklung - 200 % Erfolg in der Hälfte der Zeit'
+  desc: 'Das Pflichtenheft hat ausgedient: Wie man mit innovativen Methoden Ideen am Fließband produziert, in der echten Welt testet und in Wochen statt Jahren auf den Markt bringt.'
+  slides: ""
+  img: marcel-otten-foto.256x256.jpg
+  img2: ""
+  twitter: 72inches
+  twitter2: ""
+  xing: >
+    https://www.xing.com/profile/Marcel_Otten11
+  linkedin: ""
+  homepage: http://braveandhungry.com/
+
+----
+
+Facebook: https://www.facebook.com/events/111578089518781/
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 
