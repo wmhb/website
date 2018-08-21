@@ -25,9 +25,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 
-    <?php echo css('assets/css/main.css') ?>
-    <?php echo css('assets/plugins/oembed/css/oembed.css') ?>
-
+    <?= css('assets/css/main.css') ?>
+    <?= css('assets/plugins/embed/css/embed.css') ?>
 </head>
 <body>
 
@@ -38,7 +37,7 @@
                     <?php echo $site->title()->html() ?>
                 </h1>
             </a>
-            <a href="mailto:<?php echo $site->contactmail() ?>?subject=Meine%20Webmontags-Vortrags-Idee&body=Moin," class="btn">Mitmachen!</a>
+            <a href="/mitmachen" class="btn">Mitmachen!</a>
         </div>
     </nav>
     <?php if ($page->template() == 'home')  : ?>
@@ -46,7 +45,7 @@
 
         <?php if ($homeImage = $site->image($site->siteBgImage())): ?>
 
-        <?php 
+        <?php
             $cropHomeImage = $homeImage->focusCrop(1280,600);
         ?>
         style="background: url(<?php echo $cropHomeImage->url() ?>) center top/ cover no-repeat; "
@@ -66,7 +65,7 @@
     <header class="layout__header layout__header--small" role="banner"
         <?php if ( $eventImage = $page->image( $page->customheader() )): ?>
 
-            <?php 
+            <?php
                 $cropEventImage = $eventImage->focusCrop(1200,400);
             ?>
             style="background: url(<?php echo $cropEventImage->url() ?>) center top/ cover no-repeat; "
@@ -74,7 +73,7 @@
         <?php else : ?>
 
             <?php if ($bgImage = $site->image($site->siteBgImage())): ?>
-            <?php 
+            <?php
                 $cropImage = $site->image( $site->siteBgImage() )->focusCrop(1280,400);
             ?>
             style="background: url(<?php echo $cropImage->url() ?>) center top/ cover no-repeat; "

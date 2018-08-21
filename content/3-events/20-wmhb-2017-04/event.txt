@@ -1,0 +1,130 @@
+Title: Webmontag IV/2017
+
+----
+
+Customheader: 
+
+----
+
+Date: 2017-11-20
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Bremen hat eine lange Tradition als vorwärtsgewandte Handelsstadt. Bereits zum Ende des 18. Jahrhunderts führte man im Zeichen der digitalen Zukunft die Speckflagge im Pixel-Art-Stil ein.
+
+Leider verlor unsere traditionsreiche Hansestadt in den letzten Jahren ein wenig von diesem innovationsoffenen Charakter. Zumindest wirkte es so, da den Handeltreibenden der digitalen Zunft ein Ort zum regen Austausch des Wissens und der Kontakte zu pflegen fehlte.
+
+Das wollen wir so nicht stehen lassen und haben daher die Wiederauferstehung des Bremer Webmontags angeschoben. Regelmäßig soll dabei den Webschaffenden und angeschlossenen Kaufleuten und Arbeitern die Möglichkeit gegeben werden, sich auf fachlicher wie menschlicher Ebene auszutauschen und dabei das ein oder andere lokale Brauereierzeugnis zu genießen.
+
+Das Karton steht ab 18:30 Uhr für euch offen und die Vorträge beginnen um 19 Uhr.
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Fabricius Seifert
+  title: Lochkartenprogrammierung in CSS
+  desc: >
+    ... oder dass, wovor dich deine
+    technischen Projektleiter immer gewarnt
+    haben. Ein Alptraum aus Logik im
+    Frontend, aus den es kein entrinnen
+    gibt.
+  slides: ""
+  img: fabricius-seifert.jpg
+  img2: ""
+  twitter: briziel
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+- 
+  speaker: Kevin Heil
+  title: 'Lass das und mach das - Erfahrungswerte nach zwei Jahren Firmengründung'
+  desc: |
+    Unser Moderator Kevin wagt sich erneut auf die Bühne und wer ihn kennt - es wird laut und deftig.
+    
+    Bereits beim Webmontag IV/2016 hat Kevin einen Talk über seine Agenturstartup Erfahrungen nach einem Jahr gehalten. In einem Jahr passiert viel und es geht direkt weiter - Erfahrungswerte nach zwei Jahren Firmengründung.
+  slides: ""
+  img: kevin.png
+  img2: ""
+  twitter: stockimarsch
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://www.7meter17.de
+- 
+  speaker: Rico Saßen
+  title: 'Clean Code: Namen sind nicht Schall und Rauch'
+  desc: >
+    Es ist sehr schwer gute Namen zu finden,
+    daher werden oft Namen für Variablen,
+    Funktionen und Klassen verwendet, die
+    meistens nur Platzhalter für bessere
+    Namen sind. Leider bleiben diese
+    Platzhalternamen oft bestehen und
+    erschweren später das Verständnis des
+    vorliegenden Codes. In diesem Vortrag
+    werde ich auf Namen eingehen. Erklären,
+    was gute und schlechte Namen sind und
+    worauf man achten sollte, wenn man Namen
+    vergibt.
+  slides: ""
+  img: screen_shot_2017-11-09_at_09.49.13.png
+  img2: ""
+  twitter: RicoSassen
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Facebook: 
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 
