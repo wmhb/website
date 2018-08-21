@@ -1,0 +1,118 @@
+Title: Webmontag III/2018
+
+----
+
+Customheader: webp.net-resizeimage-1.jpg
+
+----
+
+Date: 2018-09-03
+
+----
+
+Time1: 18:30 Uhr
+
+----
+
+Time2: 19:00 Uhr
+
+----
+
+Text: 
+
+Der dritte Webmontag 2018 findet dieses Jahr am 03.09.2018 statt. Wie immer freuen wir uns darauf euch ab 18:30 im Karton (Alte Schnapsfabrik) begrüßen zu können. 
+
+Niklas, seines Zeichens UX Designer bei (link: https://hmmh.de text: hmmh), Podcaster und Hackathon Veranstalter, wird seine Erfahrung mit Prototypen in der Ideenentwicklung mit uns teilen. Kim Diallo von (link: https://uberspace.de text: Uberspace) besucht uns zum zweiten Mal und zeigt (link: https://www.ansible.com/ text: Ansible) und erzaehlt etwas ueber die gleichzeitige Konfiguration mehrerer Server. 
+Und mittlerweise zum 5. Mal beim Webmontag auf der Bühne - Rico Saßen, Softwareentwickler und Berater bei (link: https://hec.de/ text: HEC). Dieser Mann der scheinbar einen endlosen Fundus an guten Talkideen hat, redet dieses Mal über "richtig gut entwickeln lernenÄ und wie man in einer stets wechselnden IT Welt am Ball bleibt.
+
+*Bitte beachtet dass die Reihenfolge der Vorträge erst am Webmontag Abend entschieden wird.*
+
+Ansonsten gibt es gemütliche Sofas, nette Menschen, gute Unterhaltungen und subventionierte Getränke. Wir freuen uns auf euer Kommen!
+
+----
+
+Address: Karton - Alte Schnapsfabrik </br> Am Deich 86 </br> 28199 Bremen
+
+----
+
+Map: https://www.google.com/maps/place/K+A+R+T+O+N/@53.0728882,8.8010668,15z/data=!4m2!3m1!1s0x0:0xd487f58fdd54d175?sa=X&ved=0ahUKEwiH-czfq_jPAhVFQBoKHRAgDgcQ_BIIgAEwCg
+
+----
+
+Talks: 
+
+- 
+  speaker: Niklas Barning
+  title: Prototypen.
+  desc: >
+    Niklas Barning erzählt uns, warum
+    Prototypen wichtiger Bestandteil des
+    Arbeitsprozesses sind und wie sie dabei
+    helfen Ideen schnell zu testen.
+  slides: ""
+  img: sn6hbaou_400x400-300x300.jpg
+  img2: ""
+  twitter: barning
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: http://niklasbarning.de
+- 
+  speaker: Kim Diallo
+  title: 'Automatisieren mit Ansible - Fire and Forget'
+  desc: |
+    Lasst mich Euch von Ansible erzählen! Ein feines kleines Tool mit ganz viel Power, das unter anderem in der Lage ist, Euch bestimmte wiederkehrende Fleißarbeiten abzunehmen indem es Euch Konfigurationen zentral verwalten lässt oder komplexe Deployment Prozesse, auf wenn Ihr wollt hunderten Hosts synchron, automatisch ausführt - mit nur einem Befehl.
+    
+    In meinem Talk möchte ich ein Bisschen darüber berichten, wie wir Ansible einsetzen, was es für Möglichkeiten bietet, wie es eigentlich funktioniert, was es Euch alles abnehmen kann und wie toll es überhaupt ist. Mit Bildern und Beispielen.
+  slides: ""
+  img: kim.jpg
+  img2: ""
+  twitter: Looki82
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: https://uberspace.de
+- 
+  speaker: Rico Saßen
+  title: 'Besser besser werden - Trainieren ist üben mit System.'
+  desc: 'Wer stehen bleibt wird abgehängt! In der IT haben wir ständig mit neuen Technologien und komplexen Problemstellungen tun. Nur mit Könnern können wir diesen Herausforderungen gerecht werden. Das bedeutet: wir müssen kontinuierlich lernen. Für die Entwickler haben sich hierbei Methoden wie Katas, Randoris oder Austauschkreise wie Communities of Practice etabliert. Doch was ist das jeweils genau und wie hilft das beim Üben oder müssen wir vielleicht sogar trainieren? Und kann man das auch für Nicht-Entwickler verwenden um besser zu werden? Diese Fragen und noch viel mehr rund um das Lernen zeige ich in diesem Vortrag.'
+  slides: ""
+  img: screen-shot-2017-11-09-at-09.49.13.png
+  img2: ""
+  twitter: RicoSassen
+  twitter2: ""
+  xing: ""
+  linkedin: ""
+  homepage: ""
+
+----
+
+Facebook: https://www.facebook.com/events/222385881960258/
+
+----
+
+Line-a: 
+
+----
+
+Info: 
+
+----
+
+Featured-media1: 
+
+----
+
+Featured-media2: 
+
+----
+
+Featured-media3: 
+
+----
+
+Featured-media4: 
+
+----
+
+Featured-media5: 

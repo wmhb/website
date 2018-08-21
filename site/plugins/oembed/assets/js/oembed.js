@@ -1,1 +1,0 @@
-var pluginOembedLoadLazyVideo=function(){var e=this.parentNode,n=e.children[0];n.src=n.dataset.src,this.remove()};document.addEventListener("DOMContentLoaded",function(e){for(var n=document.getElementsByClassName("kirby-plugin-oembed__thumb"),t=0;t<n.length;t++)n[t].addEventListener("click",pluginOembedLoadLazyVideo,!1)});

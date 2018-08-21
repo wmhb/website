@@ -36,7 +36,7 @@ fields:
   address:
     label: Address
     type: textarea
-    default: > 
+    default: >
       Karton - Alte Schnapsfabrik </br>
       Am Deich 86 </br>
       28199 Bremen
@@ -49,7 +49,7 @@ fields:
     type: structure
     entry: >
       <em>{{speaker}}</em><br />
-      {{title}}<br /> 
+      {{title}}<br />
     fields:
       speaker:
         label: Sprecher
@@ -60,7 +60,7 @@ fields:
       desc:
         label: Talk Beschreibung
         type: textarea
-      slides: 
+      slides:
         label: Slides online?
         type: text
       img:
@@ -93,24 +93,24 @@ fields:
     label: Info
     type: info
     text: >
-      Hier können verschiedene Medien angehängt werden. Macht natürlich mehr Sinn NACHDEM die Veranstaltung war. Möglich ist u.a. Twitter, Flickr, Vimeo, YouTube und so ziemlich alles was Embed erlaubt. Erstmal nur 5, nach Bedarf wird dieser Part irgendwann überarbeitet. <br />Damit diese Wall erscheint muss das erste Feld zwingend ausgefüllt werden. Alles andere wäre auch doof. 
+      Hier können verschiedene Medien angehängt werden. Macht natürlich mehr Sinn NACHDEM die Veranstaltung war. Möglich ist u.a. Twitter, Flickr, Vimeo, YouTube und so ziemlich alles was Embed erlaubt. Erstmal nur 5, nach Bedarf wird dieser Part irgendwann überarbeitet. <br />Damit diese Wall erscheint muss das erste Feld zwingend ausgefüllt werden. Alles andere wäre auch doof.
   featured_media1:
     label: Feature Media 1
-    type: oembed
+    type: embed
     width: 1/2
   featured_media2:
     label: Feature Media 2
-    type: oembed
+    type: embed
     width: 1/2
   featured_media3:
     label: Feature Media 3
-    type: oembed
+    type: embed
     width: 1/2
   featured_media4:
     label: Feature Media 4
-    type: oembed
+    type: embed
     width: 1/2
   featured_media5:
     label: Feature Media 5
-    type: oembed
+    type: embed
     width: 1/2
