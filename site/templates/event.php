@@ -145,19 +145,19 @@
                 <h3>Nachlese</h3>
                 <div class="event__mediawall">
                     <?php if ( $page->featured_media1()->isNotEmpty() ) : ?>
-                        <?php echo $page->featured_media1()->oembed(); ?>
+                        <?php echo $page->featured_media1()->embed(); ?>
                     <?php endif; ?>
                     <?php if ( $page->featured_media2()->isNotEmpty() ) : ?>
-                        <?php echo $page->featured_media2()->oembed(); ?>
+                        <?php echo $page->featured_media2()->embed(); ?>
                     <?php endif; ?>
                     <?php if ( $page->featured_media3()->isNotEmpty() ) : ?>
-                        <?php echo $page->featured_media3()->oembed(); ?>
+                        <?php echo $page->featured_media3()->embed(); ?>
                     <?php endif; ?>
                     <?php if ( $page->featured_media4()->isNotEmpty() ) : ?>
-                        <?php echo $page->featured_media4()->oembed(); ?>
+                        <?php echo $page->featured_media4()->embed(); ?>
                     <?php endif; ?>
                     <?php if ( $page->featured_media5()->isNotEmpty() ) : ?>
-                        <?php echo $page->featured_media5()->oembed(); ?>
+                        <?php echo $page->featured_media5()->embed(); ?>
                     <?php endif; ?>
                 </div>
             </div>
